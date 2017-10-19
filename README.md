@@ -5,7 +5,19 @@
 
 ## framework分工
 
-（在这里写明自己做哪几个）
+陈晖：Singleton、Visitor、State, Objects for States、Proxy, Surrogate、Template Method
+
+李源：Strategy, Policy、Prototype、Observer、Memento, Token、Mediator
+
+杨国辉：Iterator, Cursor、Interpreter、Factory Method, Virtual Constructor、Flyweight、Facade
+
+李冕泓：Decorator, Wrapper、Composite、Command, Action, Transaction、Chain of Responsibility、Builder
+
+胡嘉鑫：Bridge、Adapter, Wrapper、Abstract Factory, Kid
+
+
+
+“、”号做分隔为一个设计模式，具体名字可参考ppt 18 - 20页
 
 ## 任务计划
 
@@ -13,11 +25,12 @@
 
 - [ ] 实现场景设计UML图
 - [ ] 阅读源代码，14 - 15个设计模式
+- [ ] 周六下午、晚上开发
 
 - 人员分工：
   - UML图例，3人
   - 文档撰写，2人 
-  - 阅读源代码，一人2个，(文档组1个)，6人
+  - 代码，6人
 
 ## 提交内容
 
@@ -61,6 +74,9 @@ Design Patterns Explained Simply
 ## 更新日志
 
 请每位组员注意填写README，格式如下（以时间倒序排序）
+
+- 10月19日，8:50 更新分工 —— 李源
+
 
 - 10月16日，16:30 更新第一次任务安排 —— 李源
 
