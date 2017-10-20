@@ -11,11 +11,11 @@
 
 杨国辉：Iterator, Cursor、Interpreter、Factory Method, Virtual Constructor、Flyweight、Facade
 
-李冕泓：Decorator, Wrapper、Composite、Command, Action, Transaction、Chain of Responsibility、Builder
+李冕泓：Wrapper、Composite、Command, Action, Transaction、Chain of Responsibility、Builder
 
-胡嘉鑫：Bridge、Adapter, Wrapper、Abstract Factory, Kid
+胡嘉鑫：Bridge, Wrapper、Abstract Factory, Kid
 
-
+杨冰洁：Decorator, Adapter
 
 “、”号做分隔为一个设计模式，具体名字可参考ppt 18 - 20页
 
