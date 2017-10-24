@@ -1,4 +1,4 @@
-package Item;
+package src.Item;
 
 public class Main {
 

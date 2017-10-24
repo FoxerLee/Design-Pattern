@@ -1,4 +1,4 @@
-package action;
+package src.Action;
 
 public class Watering extends Action {
 	private Integer type = 0;

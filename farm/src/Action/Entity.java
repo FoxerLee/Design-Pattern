@@ -1,4 +1,4 @@
-package action;
+package src.Action;
 
 public class Entity {
 	private String name; 

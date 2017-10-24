@@ -1,9 +1,9 @@
 package action;
-//Base Class for Action Object
+//Base Class for src.Action Object
 abstract class Action {
 	 /** 
      * The "target".
-     * The target is the invoker of the Action
+     * The target is the invoker of the src.Action
      * The target will be set in the runAction() method of Entity.java with the 'setTarget' method.
      */
 	Entity Target;
@@ -21,7 +21,7 @@ abstract class Action {
 	protected Action() {}
 	
 	/** 
-     * Run Action.
+     * Run src.Action.
      * We can add more operation in this method.
      * Design Pattern: Template Method.
      */
@@ -34,7 +34,7 @@ abstract class Action {
      */
 	abstract protected boolean doSomething(); 
 	
-	//abstract public Action create();
+	//abstract public src.Action create();
 	
 	/** 
      * return Description of your action, like " is watering."
