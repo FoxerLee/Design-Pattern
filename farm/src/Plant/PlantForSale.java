@@ -1,4 +1,5 @@
 package src.Plant;
+import src.Base.*;
 
 public class PlantForSale extends Plant {
 

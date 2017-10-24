@@ -1,4 +1,4 @@
-package src.Action;
+package src.Base;
 
 public class Entity {
 	private String name;

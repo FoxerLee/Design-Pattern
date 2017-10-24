@@ -1,6 +1,5 @@
-package src.Plant;
+package src.Base;
 
-import src.Action.Entity;
 
 public class Plant extends Entity{
 

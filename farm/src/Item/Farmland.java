@@ -1,4 +1,5 @@
 package src.Item;
 
-public class Farmland extends ImmovableProperty {
+public class Farmland extends Facility {
+
 }

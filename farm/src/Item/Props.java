@@ -1,4 +1,5 @@
 package src.Item;
+import src.Base.*;
 
-public class Props extends MovableProperty {
+public class Props extends Item {
 }
