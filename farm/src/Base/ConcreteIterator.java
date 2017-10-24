@@ -11,9 +11,12 @@ interface Iterator {
 }
 
 public class ConcreteIterator implements Iterator {
-    private List list = new ArrayList();
+    private List list;
     private int cursor = 0;
 
+    public ConcreteIterator() {
+        this.list = new ArrayList();
+    }
     public ConcreteIterator(List list) {
         this.list = list;
     }
