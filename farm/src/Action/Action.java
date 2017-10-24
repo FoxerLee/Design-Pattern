@@ -1,5 +1,5 @@
 
-package Action;
+package src.Action;
 //Base Class for action Object
 abstract class Action {
 	 /** 
@@ -46,12 +46,7 @@ abstract class Action {
      * Content will be edited by the developer.
      */
 	abstract protected boolean doSomething(); 
-	
-<<<<<<< HEAD:farm/Action/Action.java
-	//abstract public action create();
-=======
-	//abstract public src.Action create();
->>>>>>> master:farm/src/Action/Action.java
+
 	
 	/** 
      * return Description of your action, like " is watering."
