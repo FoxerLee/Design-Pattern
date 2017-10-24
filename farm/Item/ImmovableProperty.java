@@ -1,20 +1,25 @@
 package Item;
 
+import action.Entity;
+
 import java.util.List;
 
-public class ImmovableProperty extends Item implements Component{
-    private List loggerList;
-
-    //参数为人／动物／植物总类
-    public boolean addLogger(){
-
-        return true;
+public Facility extends Item implements Component{
+    public List getLoggerList() {
+        return loggerList;
     }
 
+    public void setLoggerList(List loggerList) {
+        this.loggerList = loggerList;
+    }
 
-    //参数为人／动物／植物总类
-    public boolean remove(){
-        return  true;
+    private List loggerList;
+
+    protected abstract boolean addLogger(Entity e);
+
+
+    public boolean remove(Entity e){
+        return  loggerList.remove(e);
     }
 
 
