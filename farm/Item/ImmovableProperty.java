@@ -1,3 +1,5 @@
+package Item;
+
 import java.util.List;
 
 public class ImmovableProperty extends Item implements Component{
