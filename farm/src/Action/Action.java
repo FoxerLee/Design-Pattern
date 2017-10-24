@@ -1,4 +1,4 @@
-package action;
+package src.Action;
 //Base Class for src.Action Object
 abstract class Action {
 	 /** 
