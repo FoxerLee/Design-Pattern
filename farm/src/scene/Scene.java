@@ -1,4 +1,4 @@
-package src.scene;
+package src.Scene;
 
 import javax.swing.text.html.HTMLDocument;
 

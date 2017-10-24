@@ -1,4 +1,4 @@
 package src.Item;
 
-public class Props extends MovableProperty {
+public class Props extends Item {
 }
