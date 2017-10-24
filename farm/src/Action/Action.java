@@ -1,5 +1,5 @@
-<<<<<<< HEAD:farm/Action/Action.java
-package action;
+
+package Action;
 //Base Class for action Object
 abstract class Action {
 	 /** 
