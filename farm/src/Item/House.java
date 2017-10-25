@@ -1,6 +1,6 @@
 package src.Item;
 
-import action.Entity;
+import src.Base.Entity;
 
 public class House extends Building {
 
