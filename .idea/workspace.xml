@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7e2715-9f64-4785-bd4e-5b6b85f8a0cd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/模版/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/模版/模版.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/模版/模版.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/farm/.idea/workspace_BACKUP_15595.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/farm/.idea/workspace_BASE_15595.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/farm/.idea/workspace_LOCAL_15595.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/farm/.idea/workspace_REMOTE_15595.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/farm/Item/test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/farm/src/Item/Component.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/farm/src/Scene/Scene.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/API说明文档.md" afterPath="$PROJECT_DIR$/doc/API说明文档.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/farm/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Base/Entity.java" afterPath="$PROJECT_DIR$/farm/src/Base/Entity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/Awning.java" afterPath="$PROJECT_DIR$/farm/src/Item/Awning.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/Building.java" afterPath="$PROJECT_DIR$/farm/src/Item/Building.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/Decorator.java" afterPath="$PROJECT_DIR$/farm/src/Item/Decorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/Facility.java" afterPath="$PROJECT_DIR$/farm/src/Item/Facility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/Farmland.java" afterPath="$PROJECT_DIR$/farm/src/Item/Farmland.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/Fence.java" afterPath="$PROJECT_DIR$/farm/src/Item/Fence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/House.java" afterPath="$PROJECT_DIR$/farm/src/Item/House.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/Kennel.java" afterPath="$PROJECT_DIR$/farm/src/Item/Kennel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/Props.java" afterPath="$PROJECT_DIR$/farm/src/Item/Props.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Item/Sheepfold.java" afterPath="$PROJECT_DIR$/farm/src/Item/Sheepfold.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm/src/Plant/PlantForAnimal.java" afterPath="$PROJECT_DIR$/farm/src/Plant/PlantForAnimal.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,16 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Sheepfold.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/farm/src/Item/Sheepfold.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Building.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/farm/src/Item/Building.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Watering.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Watering.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/farm/src/Action/Watering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="609">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,7 +61,22 @@
         <entry file="file://$PROJECT_DIR$/farm/src/Base/Entity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1508912110019" expanded="false" signature="173:178" ph=" { " />
+                <marker date="1508912110019" expanded="false" signature="195:198" ph=" }" />
+                <marker date="1508912110019" expanded="false" signature="223:228" ph=" { " />
+                <marker date="1508912110019" expanded="false" signature="240:243" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Props.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/farm/src/Item/Props.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -152,8 +181,9 @@
         <option value="$PROJECT_DIR$/farm/src/Plant/PlantForAnimal.java" />
         <option value="$PROJECT_DIR$/farm/src/Plant/PlantForHuman.java" />
         <option value="$PROJECT_DIR$/farm/src/Plant/PlantForSale.java" />
-        <option value="$PROJECT_DIR$/farm/src/Item/Props.java" />
         <option value="$PROJECT_DIR$/farm/src/Action/Watering.java" />
+        <option value="$PROJECT_DIR$/farm/src/Base/Entity.java" />
+        <option value="$PROJECT_DIR$/farm/src/Item/Props.java" />
       </list>
     </option>
   </component>
@@ -163,7 +193,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -186,9 +216,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,7 +279,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,14 +402,15 @@
       <workItem from="1508843329702" duration="3208000" />
       <workItem from="1508853238002" duration="2056000" />
       <workItem from="1508901800011" duration="38000" />
+      <workItem from="1508909436152" duration="662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8727000" />
+    <option name="totallyTimeSpent" value="9392000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -394,7 +425,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26502147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26877683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -495,7 +526,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/farm/src/ConcreteIterator.java" />
-    <entry file="file://$PROJECT_DIR$/farm/src/scene/Scene.java">
+    <entry file="file://$PROJECT_DIR$/farm/src/Scene/Scene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="37" />
@@ -608,14 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/farm/src/Item/Props.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -742,18 +765,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/farm/src/Base/Entity.java">
+    <entry file="file://$PROJECT_DIR$/farm/src/Action/Watering.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="609">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/farm/src/Action/Watering.java">
+    <entry file="file://$PROJECT_DIR$/farm/src/Base/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="42">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1508912110019" expanded="false" signature="173:178" ph=" { " />
+            <marker date="1508912110019" expanded="false" signature="195:198" ph=" }" />
+            <marker date="1508912110019" expanded="false" signature="223:228" ph=" { " />
+            <marker date="1508912110019" expanded="false" signature="240:243" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/farm/src/Item/Props.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding />
         </state>
       </provider>
