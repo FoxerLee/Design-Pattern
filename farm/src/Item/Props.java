@@ -1,4 +1,4 @@
 package src.Item;
 
-public class Props extends Item {
+public class Props {
 }
