@@ -1,10 +1,13 @@
 package src.Item;
 
 public class Sheepfold extends Building {
-    public String getDescription(){
-        return getName();
+    public Sheepfold(String name, int capacity) {
+        super(name, capacity);
     }
 
+    public Sheepfold(String name) {
+        super(name);
+    }
 
 
 //    public boolean addLodger(Sheep sheep){

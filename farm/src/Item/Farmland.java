@@ -3,10 +3,20 @@ package src.Item;
 import src.Base.Plant;
 
 public class Farmland extends CurrentFacility {
-    public String getDescription(){
-        return getName();
+
+    public Farmland(String name, int capacity) {
+        super(name, capacity);
     }
 
+    public Farmland(String name) {
+        super(name);
+    }
+
+    @Override
+
+    public void getDescription() {
+        System.out.print(getName());
+    }
 
     public boolean addLodger(Plant plant){
         check(plant);

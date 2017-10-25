@@ -1,20 +1,20 @@
 package src.Item;
 
-<<<<<<< HEAD
 
 import src.Base.Person;
-import src.Base.Plant;
-=======
-import src.Base.Entity;
->>>>>>> 5e4d1d5c0b55f95171a5f196bf4827dafb880ead
+
 
 public class House extends Building {
 
-    public String getDescription(){
-        return getName();
+
+
+    @Override
+    public void getDescription() {
+        System.out.print(getName()+" is a house");
     }
 
     public House(String name) {
+        super(name);
         this.setName(name);
     }
 
