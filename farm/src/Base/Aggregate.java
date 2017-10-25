@@ -20,7 +20,9 @@ class ConcreteIterator implements Iterator {
     public ConcreteIterator() {
         this.list = new Aggregate();
     }
-    public ConcreteIterator(Aggregate list) { this.list = list; }
+    public ConcreteIterator(Aggregate list) {
+        this.list = list;
+    }
 
     public boolean hasNext() {
         if (this.list.size() == cursor)
