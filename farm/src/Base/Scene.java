@@ -1,5 +1,6 @@
 package src.Base;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /*
@@ -12,13 +13,19 @@ public class Scene {
     private List<Object> container;
 
     private Scene () {
-        container = 
+        container = new ArrayList<Object>();
     }
     // 获取当前的场景
     public static Scene getScene() {
         return scene;
     }
 
+    public void addObject (Object newObj) {
+        container.add(newObj);
+    }
 
+    public Object getObject (int index) {
+        return container.get(index);
+    }
 
 }
