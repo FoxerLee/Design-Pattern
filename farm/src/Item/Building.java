@@ -1,7 +1,10 @@
 package src.Item;
 
-public class Building extends ImmovableProperty {
-    private int capacity;
-    private int usedCapacity;
+public class Building extends CurrentFacility {
+
+    @Override
+    public String getDescription() {
+        return this.getName();
+    }
 
 }
