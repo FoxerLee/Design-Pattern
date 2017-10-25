@@ -10,7 +10,7 @@ package src.Action;
 package src.Base;
 >>>>>>> 14612cfd57913131468e149619619020ece365b7:farm/src/Base/Action.java
 //Base Class for src.Action Object
-abstract class Action {
+abstract public class Action {
 	 /** 
      * The "target".
      * The target is the invoker of the src.Action

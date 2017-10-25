@@ -23,6 +23,7 @@ public class CurrentFacility extends Item implements Facility {
     public CurrentFacility(String name) {
         this.capacity = 2;
         this.usedCapacity = 0;
+        this.setName(name);
         initList();
     }
 
@@ -168,8 +169,8 @@ public class CurrentFacility extends Item implements Facility {
 
 
     @Override
-    public String getDescription() {
-        return getName();
+    public void getDescription() {
+        System.out.print(getName());
     }
 
     public boolean isFull(){

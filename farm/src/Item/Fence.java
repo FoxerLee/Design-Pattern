@@ -5,9 +5,16 @@ public class Fence extends Decorator {
         super(currentfacility);
     }
 
+    public Fence(Facility facility) {
+        super(facility);
+
+    }
+
     @Override
-    public String getDescription() {
-        return getName();
+    public void getDescription() {
+
+        super.getDescription();
+        System.out.print(", fence");
     }
 
 }

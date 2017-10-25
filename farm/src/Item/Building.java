@@ -5,9 +5,18 @@ public class Building extends CurrentFacility {
         super(name, capacity);
     }
 
+
+    public Building(String name, int capacity) {
+        super(name, capacity);
+    }
+
+    public Building(String name) {
+        super(name);
+    }
+
     @Override
-    public String getDescription() {
-        return this.getName();
+    public void getDescription() {
+        System.out.print(getName());
     }
 
 }

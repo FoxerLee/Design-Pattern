@@ -18,6 +18,13 @@ public class Plant extends Entity{
     }
 
     public Plant(String name, LifeStatement lifeState, int growthValue) {
+    /**
+     *
+     * @param name
+     * @param exp
+     * @param lifeState
+     */
+    public Plant(String name, int exp, LifeStatement lifeState) {
         super();
         this.growthValue = growthValue;
         setName(name);
