@@ -1,5 +1,8 @@
 package src.Item;
 
+/**
+ * 测试类
+ */
 public class Test {
     public static void main(String[]args){
         Facility cf=new House("test");
