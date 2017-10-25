@@ -1,5 +1,7 @@
 package src.Action;
 
+import src.Base.Action;
+
 public class Watering extends Action {
 	private Integer type = 0;
 	protected Watering() {}
