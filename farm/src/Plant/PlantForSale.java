@@ -1,5 +1,8 @@
 package src.Plant;
 
+import src.Base.LifeStatement;
+import src.Base.Plant;
+
 public class PlantForSale extends Plant {
 
     private double price;

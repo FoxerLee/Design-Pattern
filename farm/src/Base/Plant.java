@@ -7,6 +7,10 @@ public class Plant extends Entity{
     private int exp;
     private LifeStatement lifeState;
 
+    /**
+     *
+     * @return
+     */
     public int getExp() {
         return exp;
     }
@@ -23,6 +27,12 @@ public class Plant extends Entity{
         this.lifeState = lifeState;
     }
 
+    /**
+     *
+     * @param name
+     * @param exp
+     * @param lifeState
+     */
     public Plant(String name, int exp, LifeStatement lifeState) {
         super();
         setName(name);

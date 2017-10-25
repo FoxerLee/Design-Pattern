@@ -2,8 +2,17 @@ package src.Item;
 
 
 public class Kennel extends Building {
-    public String getDescription(){
-        return getName();
+    public Kennel(String name, int capacity) {
+        super(name, capacity);
+    }
+
+    public Kennel(String name) {
+        super(name);
+    }
+
+    public void getDescription(){
+        super.getDescription();
+        System.out.print(getName());
     }
 
 
