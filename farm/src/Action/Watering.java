@@ -24,6 +24,5 @@ public class Watering extends Action {
 	public boolean doSomething() {
 		System.out.println(Target.getName() + " " + getDescription() + " type: " + type.toString());
 		return true;
-	} 
-	
+	}
 }

@@ -2,17 +2,12 @@ package src.Base;
 
 
 public class Plant extends Entity{
-
-    private int exp;
+    //三个状态：死亡，未成熟和成熟
     private LifeStatement lifeState;
 
-    public int getExp() {
-        return exp;
-    }
+    //成长值：
+    private int growthValue;
 
-    public void setExp(int exp) {
-        this.exp = exp;
-    }
 
     public LifeStatement getLifeState() {
         return lifeState;
@@ -22,10 +17,10 @@ public class Plant extends Entity{
         this.lifeState = lifeState;
     }
 
-    public Plant(String name, int exp, LifeStatement lifeState) {
+    public Plant(String name, LifeStatement lifeState, int growthValue) {
         super();
+        this.growthValue = growthValue;
         setName(name);
-        this.exp = exp;
         this.lifeState = lifeState;
     }
 }

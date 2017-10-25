@@ -1,6 +1,6 @@
 package src.Base;
 //Base Class for action Object
-abstract class Action {
+public abstract class Action {
 	 /** 
      * The "target".
      * The target is the invoker of the action
@@ -16,15 +16,15 @@ abstract class Action {
      * The target is the invoker of the src.Action
      * The target will be set in the runAction() method of Entity.java with the 'setTarget' method.
      */
-	Entity Target;
+	protected Entity Target;
 	
 	/** 
      * Getter & Setter
      */
-	Entity getTarget(){
+	protected Entity getTarget(){
 		return Target;
 	}
-	void setTarget(Entity Target) {
+	protected void setTarget(Entity Target) {
 		this.Target = Target;
 	}
 	

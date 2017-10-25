@@ -3,6 +3,11 @@ package src.Item;
 import src.Base.Plant;
 
 public class Farmland extends CurrentFacility {
+
+    public Farmland(String name,int capacity){
+        super(name, capacity);
+    }
+
     public String getDescription(){
         return getName();
     }
