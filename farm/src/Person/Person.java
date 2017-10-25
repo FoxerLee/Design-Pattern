@@ -1,6 +1,6 @@
 package src.Person;
 
-import src.Action.Entity;
+import src.Base.Entity;
 
 /**
  * Basic Person class
