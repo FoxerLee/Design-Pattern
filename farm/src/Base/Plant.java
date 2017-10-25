@@ -16,15 +16,14 @@ public class Plant extends Entity{
     public void setLifeState(LifeStatement lifeState) {
         this.lifeState = lifeState;
     }
-
-    public Plant(String name, LifeStatement lifeState, int growthValue) {
+    
     /**
      *
      * @param name
      * @param exp
      * @param lifeState
      */
-    public Plant(String name, int exp, LifeStatement lifeState) {
+     public Plant(String name, int exp, LifeStatement lifeState) {
         super();
         this.growthValue = growthValue;
         setName(name);
