@@ -3,7 +3,7 @@ package src.Base;
 public class Entity {
 	private String name; 
 
-	protected Entity(){};//Developer is not allowed to new an Entity Object;
+	protected Entity(){}//Developer is not allowed to new an Entity Object;
 
 
 	public void setName(String name) {
