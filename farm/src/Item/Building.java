@@ -1,7 +1,10 @@
 package src.Item;
 
-public class Building extends CurrentFacility {
-
+/**
+ * @version 2017/10/26
+ * @auther bingjieyang
+ **/
+public class Building extends ConcreteFacility {
 
 
     /**
@@ -22,10 +25,21 @@ public class Building extends CurrentFacility {
         super(name);
     }
 
-
+    /**
+     * 获取被装饰者用装饰类装饰后的被装饰者的描述
+     */
     @Override
-    public String getDescription() {
-        return this.getName();
+    public void getDescription() {
+        System.out.print(getName());
     }
 
+    public void turnOn(ConcreteFacility concreteFacility){
+        desklamp.turnOn(this);
+    }
+
+    public void turnOff(ConcreteFacility concreteFacility){
+        desklamp.turnOff(this);
+    }
+
+    private Desklamp desklamp;
 }

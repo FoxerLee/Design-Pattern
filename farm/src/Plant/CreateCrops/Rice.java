@@ -7,6 +7,6 @@ import src.Plant.Seeds;
 public class Rice implements Seeds {
     @Override
     public Plant Grow() {
-        return new Plant("Rice",0, LifeStatement.GROWING);
+        return new Plant("Rice", LifeStatement.GROWING,0);
     }
 }

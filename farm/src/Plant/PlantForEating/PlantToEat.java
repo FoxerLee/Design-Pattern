@@ -7,7 +7,9 @@ public abstract class PlantToEat extends Plant{
     private int plantType;
 
     public PlantToEat(String name, LifeStatement lifeStatement, int growthValue){
-        super(name,  growthValue,lifeStatement);
+
+        ////////////////////////////
+        super(name,lifeStatement , growthValue);
         plantType = -1; //未定义
     }
 
