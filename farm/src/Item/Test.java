@@ -1,15 +1,11 @@
 package src.Item;
 
+/**
+ * @version 2017/10/26
+ * @auther bingjieyang
+ **/
 public class Test {
     public static void main(String[]args){
-
-
-        CurrentFacility cf=new House("test", 100);
-//        cf=new Fence(cf);
-        System.out.println("Hello!");
-
-
-
 
         //测试装饰者模式
         Facility cf=new House("test");
@@ -30,6 +26,12 @@ public class Test {
         c=new Fence(c);
         c.getDescription();
         System.out.println();
+
+        // 测试适配器模式
+        Desklamp desklamp=new Desklamp();
+        Farmland fa=new Farmland("Advanced land");
+        fa.turnOn(fa);
+        fa.turnOff(fa);
 
     }
 }

@@ -7,6 +7,6 @@ import src.Plant.Seeds;
 public class Corn implements Seeds {
     String name;
     public Plant Grow(){
-        return new Plant("Corn",0, LifeStatement.GROWING);
+        return new Plant("Corn", LifeStatement.GROWING,0);
     }
 }

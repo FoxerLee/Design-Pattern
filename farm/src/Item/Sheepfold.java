@@ -2,6 +2,10 @@ package src.Item;
 
 import src.Animal.Sheep;
 
+/**
+ * @version 2017/10/26
+ * @auther bingjieyang
+ **/
 public class Sheepfold extends Building {
 
 
@@ -9,12 +13,13 @@ public class Sheepfold extends Building {
         super(name, capacity);
     }
 
-    public String getDescription(){
-        return getName();
+    public void getDescription() {
+        super.getDescription();
+        System.out.print(getName());
+    }
 
-
-    public Sheepfold(String name, int capacity) {
-        super(name, capacity);
+    public Sheepfold(String name) {
+        super(name);
 
     }
 
