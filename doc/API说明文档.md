@@ -21,3 +21,18 @@ Facility是一个定义装饰ConcreteFacility的接口，定义了getDecription(
 
 
 
+
+## 3.2 FlyWeight
+
+### 3.2.1 一套实现
+
+#### 3.2.1.1 API描述
+
+ 
+
+#### 3.2.1.2 class diagram
+
+
+
+
+
