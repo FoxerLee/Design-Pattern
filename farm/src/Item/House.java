@@ -20,7 +20,9 @@ public class House extends Building {
 
     public House(String name, int capacity) {
         super(name, capacity);
-=======
+
+    }
+
     public House(String name) {
         super(name);
 
