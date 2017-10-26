@@ -5,6 +5,14 @@ public class Plant extends Entity{
     //三个状态：死亡，未成熟和成熟
     private LifeStatement lifeState;
 
+    public int getGrowthValue() {
+        return growthValue;
+    }
+
+    public void setGrowthValue(int growthValue) {
+        this.growthValue = growthValue;
+    }
+
     //成长值：
     private int growthValue;
 
@@ -16,14 +24,8 @@ public class Plant extends Entity{
     public void setLifeState(LifeStatement lifeState) {
         this.lifeState = lifeState;
     }
-    
-    /**
-     *
-     * @param name
-     * @param exp
-     * @param lifeState
-     */
-     public Plant(String name, int exp, LifeStatement lifeState) {
+
+    public Plant(String name, LifeStatement lifeState, int growthValue) {
         super();
         this.growthValue = growthValue;
         setName(name);
