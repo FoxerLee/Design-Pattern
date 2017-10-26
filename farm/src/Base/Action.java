@@ -8,7 +8,6 @@ public abstract class Action {
 package src.Action;
 =======
 package src.Base;
->>>>>>> 14612cfd57913131468e149619619020ece365b7:farm/src/Base/Action.java
 //Base Class for src.Action Object
 abstract public class Action {
 	 /** 

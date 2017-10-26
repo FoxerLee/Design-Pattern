@@ -1,51 +1,153 @@
 package src.Item;
 import src.Base.*;
 
-import java.util.LinkedList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
-/**
- * 具体基础设施实现
- * capacity容量
- * usedCapacity已用容量
- * lodgerList设施所容纳的人或物的List
- */
+
 public class CurrentFacility extends Item implements Facility {
 
     private int capacity;
     private int usedCapacity;
-    private LinkedList lodgerList;
+    private List lodgerList;
 
-    /**
-     * 具体基础设施名称
-     * @param name
-     * 容量
-     * @param capacity
-     */
     public CurrentFacility(String name,int capacity) {
         this.capacity = capacity;
         this.usedCapacity = 0;
+        initList();
         this.setName(name);
     }
 
-    /**
-     * 具体基础设施名称
-     * @param name
-     */
     public CurrentFacility(String name) {
         this.capacity = 2;
         this.usedCapacity = 0;
-        this.setName(name);
+        initList();
     }
 
 
-    /**
-     * 检查是否能装入lodgerList
-     * 待装入的对象
-     * @param e
-     * true 表示可以装入
-     * false 表示不可装入
-     * @return
-     */
+    private boolean initList(){
+        lodgerList=new List() {
+            @Override
+            public int size() {
+                return capacity;
+            }
+
+            @Override
+            public boolean isEmpty() {
+                return true;
+            }
+
+            @Override
+            public boolean contains(Object o) {
+                return false;
+            }
+
+            @Override
+            public Iterator iterator() {
+                return null;
+            }
+
+            @Override
+            public Object[] toArray() {
+                return new Object[0];
+            }
+
+            @Override
+            public Object[] toArray(Object[] a) {
+                return new Object[0];
+            }
+
+            @Override
+            public boolean add(Object o) {
+                return false;
+            }
+
+            @Override
+            public boolean remove(Object o) {
+                return false;
+            }
+
+            @Override
+            public boolean containsAll(Collection c) {
+                return false;
+            }
+
+            @Override
+            public boolean addAll(Collection c) {
+                return false;
+            }
+
+            @Override
+            public boolean addAll(int index, Collection c) {
+                return false;
+            }
+
+            @Override
+            public boolean removeAll(Collection c) {
+                return false;
+            }
+
+            @Override
+            public boolean retainAll(Collection c) {
+                return false;
+            }
+
+            @Override
+            public void clear() {
+
+            }
+
+            @Override
+            public Object get(int index) {
+                return null;
+            }
+
+            @Override
+            public Object set(int index, Object element) {
+                return null;
+            }
+
+            @Override
+            public void add(int index, Object element) {
+
+            }
+
+            @Override
+            public Object remove(int index) {
+                return null;
+            }
+
+            @Override
+            public int indexOf(Object o) {
+                return 0;
+            }
+
+            @Override
+            public int lastIndexOf(Object o) {
+                return 0;
+            }
+
+            @Override
+            public ListIterator listIterator() {
+                return null;
+            }
+
+            @Override
+            public ListIterator listIterator(int index) {
+                return null;
+            }
+
+            @Override
+            public List subList(int fromIndex, int toIndex) {
+                return null;
+            }
+        };
+
+        return true;
+    }
+
     public boolean check(Entity e){
         if (e!=null)
             return true;
@@ -53,65 +155,31 @@ public class CurrentFacility extends Item implements Facility {
             return false;
     }
 
-    /**
-     * 向基础设施添加一个成员
-     * 待添加的成员
-     * @param e
-     * true 表示添加成功
-     * false 表示添加失败
-     * @return
-     */
     protected boolean addLodger(Entity e){
         check(e);
         return lodgerList.add(e);
     }
 
 
-    /**
-     * 移除基础设施中的一个成员
-     * 待移除的成员
-     * @param e
-     * true 表示移除成功
-     * false 表示移除失败
-     * @return
-     */
     public boolean removeLodger(Entity e){
         return  lodgerList.remove(e);
     }
 
 
-    /**
-     * 获取被装饰者用装饰类装饰后的被装饰者的描述
-     */
+
     @Override
-    public void getDescription() {
-        System.out.print(getName());
+    public String getDescription() {
+        return getName();
     }
 
-    /**
-     * lodgerList满时返回true
-     * lodgerList未满时返回false
-     * @return
-     */
     public boolean isFull(){
         return lodgerList.size()>=capacity;
     }
 
-    /**
-     * lodgerList为空时返回true
-     * 否则返回false
-     * @return
-     */
     public boolean isEmpty(){
-
         return lodgerList.isEmpty();
     }
 
-    /**
-     * 升级容量，容量升级为之前的两倍
-     * 升级成功返回true，否则返回false
-     * @return
-     */
     public boolean upgrade(){
         if (capacity*2>Integer.MAX_VALUE){
             return false;
@@ -122,11 +190,6 @@ public class CurrentFacility extends Item implements Facility {
         }
     }
 
-    /**
-     * 降级容量，容量降级为之前的一半
-     * 降级成功返回true，否则返回false
-     * @return
-     */
     public boolean degrade(){
         if (capacity/2<0||capacity/2<usedCapacity){
             return false;

@@ -1,4 +1,4 @@
-package src.Action;
+package src.Action.AnimalEatFood;
 import src.Base.Action;
 import src.Plant.PlantForEating.PlantToEat;
 
