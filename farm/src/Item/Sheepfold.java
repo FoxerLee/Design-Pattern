@@ -4,6 +4,7 @@ import src.Animal.Sheep;
 
 public class Sheepfold extends Building {
 
+
     public Sheepfold(String name, int capacity){
         super(name, capacity);
     }
@@ -16,8 +17,6 @@ public class Sheepfold extends Building {
         super(name, capacity);
 
     }
-
-
 
     public boolean addLodger(Sheep sheep){
         check(sheep);

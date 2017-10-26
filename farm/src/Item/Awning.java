@@ -8,6 +8,7 @@ public class Awning extends Decorator {
     }
 
 
+
     /**
      *被装饰者
      * @param facility
@@ -20,6 +21,7 @@ public class Awning extends Decorator {
     /**
      * 获取被装饰者用装饰类装饰后的被装饰者的描述
      */
+
 
     @Override
     public String getDescription() {

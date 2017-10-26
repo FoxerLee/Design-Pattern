@@ -5,22 +5,13 @@ import src.Animal.Dog;
 
 public class Kennel extends Building {
 
+
     public Kennel(String name, int capacity){
         super(name, capacity);
     }
 
-    public String getDescription(){
-        return getName();
 
-
-    public Kennel(String name, int capacity) {
-        super(name, capacity);
-    }
-
-    public Kennel(String name) {
-        super(name);
-    }
-
+    @Override
     public void getDescription(){
         super.getDescription();
         System.out.print(getName());
