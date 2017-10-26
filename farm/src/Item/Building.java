@@ -4,6 +4,9 @@ package src.Item;
  * 建筑类
  */
 public class Building extends CurrentFacility {
+    public Building(String name, int capacity){
+        super(name, capacity);
+    }
 
 
     /**

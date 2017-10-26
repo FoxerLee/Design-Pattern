@@ -1,4 +1,14 @@
 package src.Base;
+//Base Class for action Object
+public abstract class Action {
+	 /** 
+     * The "target".
+     * The target is the invoker of the action
+=======
+package src.Action;
+=======
+package src.Base;
+>>>>>>> 14612cfd57913131468e149619619020ece365b7:farm/src/Base/Action.java
 //Base Class for src.Action Object
 abstract public class Action {
 	 /** 
@@ -14,7 +24,7 @@ abstract public class Action {
 	protected Entity getTarget(){
 		return Target;
 	}
-	void setTarget(Entity Target) {
+	protected void setTarget(Entity Target) {
 		this.Target = Target;
 	}
 	
@@ -32,8 +42,8 @@ abstract public class Action {
 	/** 
      * Content will be edited by the developer.
      */
-	abstract protected boolean doSomething(); 
-	
+	abstract protected boolean doSomething();
+
 	//abstract public src.Action create();
 	
 	/** 

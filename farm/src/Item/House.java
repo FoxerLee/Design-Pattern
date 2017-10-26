@@ -17,12 +17,13 @@ public class House extends Building {
         System.out.print(getName()+" is a house");
     }
 
-    /**
-     * 房屋名称
-     * @param name
-     */
+
+    public House(String name, int capacity) {
+        super(name, capacity);
+=======
     public House(String name) {
         super(name);
+
         this.setName(name);
     }
 

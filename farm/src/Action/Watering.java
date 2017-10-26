@@ -1,6 +1,6 @@
 package src.Action;
 
-import src.Base.Action;
+import src.Base.*;
 
 public class Watering extends Action {
 	private Integer type = 0;
@@ -24,6 +24,5 @@ public class Watering extends Action {
 	public boolean doSomething() {
 		System.out.println(Target.getName() + " " + getDescription() + " type: " + type.toString());
 		return true;
-	} 
-	
+	}
 }
