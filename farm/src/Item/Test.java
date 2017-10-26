@@ -1,8 +1,9 @@
 package src.Item;
 
 /**
- * 测试类
- */
+ * @version 2017/10/26
+ * @auther bingjieyang
+ **/
 public class Test {
     public static void main(String[]args){
 
@@ -26,6 +27,11 @@ public class Test {
         c.getDescription();
         System.out.println();
 
+        // 测试适配器模式
+        Desklamp desklamp=new Desklamp();
+        Farmland fa=new Farmland("Advanced land");
+        fa.turnOn(fa);
+        fa.turnOff(fa);
 
     }
 }

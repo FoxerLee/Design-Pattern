@@ -4,8 +4,9 @@ package src.Item;
 import src.Base.Person;
 
 /**
- * 房屋类
- */
+ * @version 2017/10/26
+ * @auther bingjieyang
+ **/
 public class House extends Building {
 
 

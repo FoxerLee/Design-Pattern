@@ -3,9 +3,12 @@ package src.Item;
 import src.Base.Plant;
 
 /**
+ * @version 2017/10/26
+ * @auther bingjieyang
+ *
  * 土地类
  */
-public class Farmland extends CurrentFacility {
+public class Farmland extends ConcreteFacility {
 
     /**
      * 土地名称
@@ -14,7 +17,13 @@ public class Farmland extends CurrentFacility {
      * @param capacity
      */
     public Farmland(String name, int capacity) {
+
         super(name, capacity);
+
+        // 适配器模式
+        Desklamp desklamp=new Desklamp();
+        lamppost=new Adapter(desklamp);
+
     }
 
     /**
@@ -22,7 +31,11 @@ public class Farmland extends CurrentFacility {
      * @param name
      */
     public Farmland(String name) {
+
         super(name,10);
+        // 适配器模式
+        Desklamp desklamp=new Desklamp();
+        lamppost=new Adapter(desklamp);
     }
 
     /**
@@ -54,8 +67,19 @@ public class Farmland extends CurrentFacility {
      * @return
      */
     public boolean removeLodger(Plant plant){
+
         return removeLodger(plant);
     }
 
+    public void turnOn(ConcreteFacility concreteFacility){
+        lamppost.turnOn(concreteFacility);
+    }
+
+    public void turnOff(ConcreteFacility concreteFacility){
+        lamppost.turnOff(concreteFacility);
+    }
+
+
+    private Lamppost lamppost;
 
 }

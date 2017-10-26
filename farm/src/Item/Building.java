@@ -1,9 +1,10 @@
 package src.Item;
 
 /**
- * 建筑类
- */
-public class Building extends CurrentFacility {
+ * @version 2017/10/26
+ * @auther bingjieyang
+ **/
+public class Building extends ConcreteFacility {
 
 
     /**
@@ -32,4 +33,13 @@ public class Building extends CurrentFacility {
         System.out.print(getName());
     }
 
+    public void turnOn(ConcreteFacility concreteFacility){
+        desklamp.turnOn(this);
+    }
+
+    public void turnOff(ConcreteFacility concreteFacility){
+        desklamp.turnOff(this);
+    }
+
+    private Desklamp desklamp;
 }

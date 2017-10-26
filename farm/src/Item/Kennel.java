@@ -3,6 +3,10 @@ package src.Item;
 
 import src.Animal.Dog;
 
+/**
+ * @version 2017/10/26
+ * @auther bingjieyang
+ **/
 public class Kennel extends Building {
 
     public Kennel(String name, int capacity) {

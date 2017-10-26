@@ -3,13 +3,18 @@ import src.Base.*;
 
 import java.util.LinkedList;
 
+
 /**
+ * @version 2017/10/26
+ * @auther bingjieyang
+ *
+    *
  * 具体基础设施实现
  * capacity容量
  * usedCapacity已用容量
  * lodgerList设施所容纳的人或物的List
  */
-public class CurrentFacility extends Item implements Facility {
+public class ConcreteFacility extends Item implements Facility {
 
     private int capacity;
     private int usedCapacity;
@@ -21,7 +26,7 @@ public class CurrentFacility extends Item implements Facility {
      * 容量
      * @param capacity
      */
-    public CurrentFacility(String name,int capacity) {
+    public ConcreteFacility(String name, int capacity) {
         this.capacity = capacity;
         this.usedCapacity = 0;
         this.setName(name);
@@ -31,7 +36,7 @@ public class CurrentFacility extends Item implements Facility {
      * 具体基础设施名称
      * @param name
      */
-    public CurrentFacility(String name) {
+    public ConcreteFacility(String name) {
         this.capacity = 2;
         this.usedCapacity = 0;
         this.setName(name);

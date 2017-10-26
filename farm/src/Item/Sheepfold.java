@@ -2,6 +2,10 @@ package src.Item;
 
 import src.Animal.Sheep;
 
+/**
+ * @version 2017/10/26
+ * @auther bingjieyang
+ **/
 public class Sheepfold extends Building {
 
     public Sheepfold(String name, int capacity) {
