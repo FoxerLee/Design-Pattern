@@ -12,7 +12,7 @@
 - [x] Template Method
 - [ ] Strategy
 - [ ] Prototype
-- [ ] Observer
+- [x] Observer
 - [ ] Memento
 - [ ] Mediator
 - [x] Iterator
