@@ -13,7 +13,9 @@ public class Kennel extends Building {
     public Kennel(String name, int capacity){
         super(name, capacity);
     }
-
+    public Kennel(String name){
+        super(name);
+    }
 
     @Override
     public void getDescription(){

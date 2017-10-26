@@ -5,5 +5,5 @@ package src.Item;
  * @auther bingjieyang
  **/
 public interface Facility {
-    public String getDescription();
+    public void getDescription();
 }
