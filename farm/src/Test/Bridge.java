@@ -1,8 +1,8 @@
 package src.Test;
 
-import src.Action.AnimalEatFodder;
-import src.Action.AnimalEatFood;
-import src.Action.AnimalEatNaturalFood;
+import src.Action.AnimalEatFood.AnimalEatFodder;
+import src.Action.AnimalEatFood.AnimalEatFood;
+import src.Action.AnimalEatFood.AnimalEatNaturalFood;
 import src.Base.LifeStatement;
 import src.Plant.PlantForEating.FodderForAnimal;
 import src.Plant.PlantForEating.NatureFoodForAnimal;

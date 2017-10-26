@@ -3,31 +3,21 @@
 
 
 
-## 设计模式实现情况
+## framework分工
 
-- [x] Singleton
-- [ ] Visitor
-- [x] State
-- [x] Proxy, Surrogate
-- [x] Template Method
-- [ ] Strategy
-- [ ] Prototype
-- [x] Observer
-- [ ] Memento
-- [ ] Mediator
-- [x] Iterator
-- [ ] Interpreter
-- [ ] Factory Method
-- [ ] Flyweight
-- [x] Facade
-- [ ] Composite
-- [ ] Command
-- [ ] Chain of Responsibility
-- [ ] Builder
-- [x] Bridge
-- [x] Abstract Factory
-- [ ] Kid
-- [x] Decorator
+陈晖：Singleton、Visitor、State, Objects for States、Proxy, Surrogate、Template Method
+
+李源：Strategy, Policy、Prototype、Observer、Memento, Token、Mediator
+
+杨国辉：Iterator, Cursor、Interpreter、Factory Method, Virtual Constructor、Flyweight、Facade
+
+李冕泓：Wrapper、Composite、Command, Action, Transaction、Chain of Responsibility、Builder
+
+胡嘉鑫：Bridge, Wrapper、Abstract Factory, Kid
+
+杨冰洁：Decorator, Adapter
+
+“、”号做分隔为一个设计模式，具体名字可参考ppt 18 - 20页
 
 ## 任务计划
 
@@ -44,14 +34,9 @@
 
 **第二次 10.23**
 
-- [x] 实现代码
-- [x] 实现对应的类图
-- [x] 周三汇总
-
-**第三次 10.25**
-
-- [ ] 第二层接口部分
-- [ ] 文档撰写
+- [ ] 实现代码
+- [ ] 实现对应的类图
+- [ ] 周三汇总
 
 ## 提交内容
 
