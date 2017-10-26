@@ -19,7 +19,7 @@
 - [x] Iterator
 - [ ] Interpreter
 - [ ] Factory Method
-- [x] Flyweight
+- [ ] Flyweight
 - [x] Facade
 - [ ] Composite
 - [ ] Command
