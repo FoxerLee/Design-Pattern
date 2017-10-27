@@ -8,7 +8,7 @@
 
 #### 3.1.1.1 API描述
 
-Facility是一个描述基础设施的接口，它定义了……
+Facility是一个定义装饰ConcreteFacility的接口，定义了getDecription()方法，Decorator类的子类，如Awning和Fence，可以装饰ConcreteFacility类及其子类。
 
 #### 3.1.1.2 class diagram
 
