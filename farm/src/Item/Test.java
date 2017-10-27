@@ -8,7 +8,7 @@ public class Test {
     public static void main(String[]args){
 
         //测试装饰者模式
-        Facility cf=new House("test");
+        Facility cf=new House("test1");
         cf=new Awning(cf);
         cf=new Fence(cf);
         cf.getDescription();
@@ -21,7 +21,7 @@ public class Test {
         System.out.println();
 
 
-        Facility c=new House("test3");
+        Facility c=new Sheepfold("test3");
         c=new Awning(c);
         c=new Fence(c);
         c.getDescription();

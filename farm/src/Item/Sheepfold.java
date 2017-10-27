@@ -15,7 +15,7 @@ public class Sheepfold extends Building {
 
     public void getDescription() {
         super.getDescription();
-        System.out.print(getName());
+        System.out.print(getName()+" is a sheepfold ");
     }
 
     public Sheepfold(String name) {
