@@ -20,7 +20,7 @@ public class Kennel extends Building {
     @Override
     public void getDescription(){
         super.getDescription();
-        System.out.print(getName());
+        System.out.print(getName()+" is a kennel ");
 
     }
 

@@ -30,7 +30,7 @@ public class Building extends ConcreteFacility {
      */
     @Override
     public void getDescription() {
-        System.out.print(getName());
+        System.out.print("");
     }
 
     public void turnOn(ConcreteFacility concreteFacility){
