@@ -1,3 +1,7 @@
+# Env-related Config
+farm\.idea\misc.xml
+farm\.idea\workspace.xml
+
 # Compiled class file
 *.class
 
