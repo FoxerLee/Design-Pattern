@@ -1,6 +1,6 @@
 package src.Base;
 
-import action.Entity;
+import src.Base.Entity;
 
 public class Item extends Entity{
     public int getValue() {

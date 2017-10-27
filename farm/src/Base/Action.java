@@ -1,20 +1,29 @@
 package src.Base;
+//Base Class for action Object
+public abstract class Action {
+	 /** 
+     * The "target".
+     * The target is the invoker of the action
+=======
+package src.Action;
+=======
+package src.Base;
 //Base Class for src.Action Object
-abstract class Action {
+abstract public class Action {
 	 /** 
      * The "target".
      * The target is the invoker of the src.Action
      * The target will be set in the runAction() method of Entity.java with the 'setTarget' method.
      */
-	Entity Target;
+	protected Entity Target;
 	
 	/** 
      * Getter & Setter
      */
-	Entity getTarget(){
+	protected Entity getTarget(){
 		return Target;
 	}
-	void setTarget(Entity Target) {
+	protected void setTarget(Entity Target) {
 		this.Target = Target;
 	}
 	
@@ -32,8 +41,8 @@ abstract class Action {
 	/** 
      * Content will be edited by the developer.
      */
-	abstract protected boolean doSomething(); 
-	
+	abstract protected boolean doSomething();
+
 	//abstract public src.Action create();
 	
 	/** 

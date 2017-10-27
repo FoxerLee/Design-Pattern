@@ -3,6 +3,33 @@
 
 
 
+
+## 设计模式实现情况
+
+- [x] Singleton
+- [ ] Visitor
+- [x] State
+- [x] Proxy, Surrogate
+- [x] Template Method
+- [ ] Strategy
+- [ ] Prototype
+- [x] Observer
+- [ ] Memento
+- [ ] Mediator
+- [x] Iterator
+- [ ] Interpreter
+- [ ] Factory Method
+- [ ] Flyweight
+- [x] Facade
+- [ ] Composite
+- [ ] Command
+- [ ] Chain of Responsibility
+- [ ] Builder
+- [x] Bridge
+- [x] Abstract Factory
+- [ ] Kid
+- [x] Decorator
+- [x] Adapter
 ## framework分工
 
 陈晖：Singleton、Visitor、State, Objects for States、Proxy, Surrogate、Template Method
@@ -18,6 +45,7 @@
 杨冰洁：Decorator, Adapter
 
 “、”号做分隔为一个设计模式，具体名字可参考ppt 18 - 20页
+>>>>>>> 4725f25088d158e541a4ba35d9cbdffb5031c1c7
 
 ## 任务计划
 
