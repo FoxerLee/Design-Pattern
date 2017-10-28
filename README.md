@@ -29,30 +29,6 @@
 - [x] Abstract Factory，hjx
 - [x] Decorator，ybj
 - [x] Adapter，ybj
-- [x] Singleton
-- [ ] Visitor
-- [x] State
-- [x] Proxy, Surrogate
-- [x] Template Method
-- [ ] Strategy
-- [ ] Prototype
-- [x] Observer
-- [ ] Memento
-- [ ] Mediator
-- [x] Iterator
-- [ ] Interpreter
-- [ ] Factory Method
-- [ ] Flyweight
-- [x] Facade
-- [ ] Composite
-- [ ] Command
-- [ ] Chain of Responsibility
-- [x] Builder
-- [x] Bridge
-- [x] Abstract Factory
-- [ ] Kid
-- [x] Decorator
-- [x] Adapter
 ## 任务计划
 
 **第一次** 10.16
