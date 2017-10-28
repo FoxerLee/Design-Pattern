@@ -1,17 +1,18 @@
 package src.Item;
 
 /**
+ * 建筑类
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public abstract class Building extends ConcreteFacility {
 
 
     /**
-     * 建筑的名称
-     * @param name
-     * 容量
-     * @param capacity
+     *
+     * @param name 建筑的名称
+     *
+     * @param capacity 容量
      */
     public Building(String name, int capacity) {
         super(name, capacity);
@@ -19,8 +20,8 @@ public abstract class Building extends ConcreteFacility {
     }
 
     /**
-     * 建筑的名称
-     * @param name
+     *
+     * @param name 建筑的名称
      */
     public Building(String name) {
         super(name);
@@ -37,8 +38,8 @@ public abstract class Building extends ConcreteFacility {
 
     /**
      * 开灯
-     * 调用开灯的建筑
-     * @param concreteFacility
+     *
+     * @param concreteFacility 调用开灯的建筑
      */
     public void turnOn(ConcreteFacility concreteFacility){
         desklamp.turnOn(this);
@@ -46,8 +47,8 @@ public abstract class Building extends ConcreteFacility {
 
     /**
      * 关灯
-     * 调用关灯的建筑
-     * @param concreteFacility
+     *
+     * @param concreteFacility 调用关灯的建筑
      */
     public void turnOff(ConcreteFacility concreteFacility){
         desklamp.turnOff(this);

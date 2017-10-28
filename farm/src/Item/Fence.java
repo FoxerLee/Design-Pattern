@@ -1,15 +1,15 @@
 package src.Item;
 
 /**
- *
+ *篱笆类
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 
 public class Fence extends Decorator {
     /**
-     *被装饰者
-     * @param facility
+     *
+     * @param facility 被装饰者
      */
     public Fence(Facility facility) {
         super(facility);

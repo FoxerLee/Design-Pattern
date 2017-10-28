@@ -3,18 +3,19 @@ package src.Item;
 import src.Base.Plant;
 
 /**
- * @version 2017/10/26
- * @auther bingjieyang
- *
  * 土地类
+ * @version 2017/10/26
+ * @author bingjieyang
+ *
+ *
  */
 public class Farmland extends ConcreteFacility {
 
     /**
-     * 土地名称
-     * @param name
-     * 土地容量
-     * @param capacity
+     *
+     * @param name 土地名称
+     *
+     * @param capacity 土地容量
      */
     public Farmland(String name, int capacity) {
 
@@ -27,8 +28,8 @@ public class Farmland extends ConcreteFacility {
     }
 
     /**
-     * 土地名称
-     * @param name
+     *
+     * @param name 土地名称
      */
     public Farmland(String name) {
 
@@ -50,10 +51,10 @@ public class Farmland extends ConcreteFacility {
 
     /**
      *种植植物
-     * 被种植的植物
-     * @param plant
-     * 返回true表示种植成功，false表示失败
-     * @return
+     *
+     * @param plant 被种植的植物
+     *
+     * @return 返回true表示种植成功，false表示失败
      */
     public boolean addLodger(Plant plant){
         check(plant);
@@ -62,10 +63,10 @@ public class Farmland extends ConcreteFacility {
 
     /**
      *移除植物
-     * 被移除的植物
-     * @param plant
-     * 返回true表示移除成功，false表示移除失败
-     * @return
+     *
+     * @param plant 被移除的植物
+     *
+     * @return 返回true表示移除成功，false表示移除失败
      */
     public boolean removeLodger(Plant plant){
 
@@ -75,8 +76,8 @@ public class Farmland extends ConcreteFacility {
     /**
      * 开灯
      * 适配器模式接口的使用
-     * 调用开灯的基础设施
-     * @param concreteFacility
+     *
+     * @param concreteFacility 调用开灯的基础设施
      */
     public void turnOn(ConcreteFacility concreteFacility){
         lamppost.turnOn(concreteFacility);
@@ -85,8 +86,8 @@ public class Farmland extends ConcreteFacility {
     /**
      * 关灯
      * 适配器模式接口的使用
-     * 调用关灯的基础设施
-     * @param concreteFacility
+     *
+     * @param concreteFacility 调用关灯的基础设施
      */
     public void turnOff(ConcreteFacility concreteFacility){
         lamppost.turnOff(concreteFacility);

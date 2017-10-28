@@ -3,12 +3,12 @@ package src.Item;
 /**
  * 适配器模式中适配器类
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public class Adapter implements Lamppost{
     /**
-     * 适配器模式中Adapter中所拥有的Adaptee
-     * @param desklamp
+     * 构造函数
+     * @param desklamp 适配器模式中Adapter中所拥有的Adaptee
      */
     public Adapter(Desklamp desklamp) {
         this.desklamp = desklamp;
@@ -16,8 +16,8 @@ public class Adapter implements Lamppost{
 
     /**
      * 适配器模式中Adapter调用Adaptee中的函数
-     * 当前使用适配器的基础设施
-     * @param concreteFacility
+     *
+     * @param concreteFacility 当前使用适配器的基础设施
      */
     @Override
     public void turnOn(ConcreteFacility concreteFacility) {
@@ -26,8 +26,8 @@ public class Adapter implements Lamppost{
 
     /**
      * 适配器模式中Adapter调用Adaptee中的函数
-     * 当前使用适配器的基础设施
-     * @param concreteFacility
+     *
+     * @param concreteFacility 当前使用适配器的基础设施
      */
     @Override
     public void turnOff(ConcreteFacility concreteFacility) {

@@ -1,14 +1,15 @@
 package src.Item;
 
 /**
+ * 雨棚类
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public class Awning extends Decorator {
 
     /**
-     *被装饰者
-     * @param facility
+     *
+     * @param facility 被装饰者
      */
     public Awning(Facility facility) {
         super(facility);

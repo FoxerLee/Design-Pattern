@@ -1,8 +1,9 @@
 package src.Item;
 
 /**
+ * 装饰者模式中基础设施接口
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public interface Facility {
     /**
