@@ -1,6 +1,8 @@
 # Env-related Config
-farm\.idea\misc.xml
-farm\.idea\workspace.xml
+
+farm/.idea/
+farm.imi
+farm/out
 
 # Compiled class file
 *.class
