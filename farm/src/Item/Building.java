@@ -4,7 +4,7 @@ package src.Item;
  * @version 2017/10/26
  * @auther bingjieyang
  **/
-public class Building extends ConcreteFacility {
+public abstract class Building extends ConcreteFacility {
 
 
     /**
@@ -15,6 +15,7 @@ public class Building extends ConcreteFacility {
      */
     public Building(String name, int capacity) {
         super(name, capacity);
+        desklamp=new Desklamp();
     }
 
     /**
@@ -23,6 +24,7 @@ public class Building extends ConcreteFacility {
      */
     public Building(String name) {
         super(name);
+        desklamp=new Desklamp();
     }
 
     /**
@@ -33,13 +35,26 @@ public class Building extends ConcreteFacility {
         System.out.print("");
     }
 
+    /**
+     * 开灯
+     * 调用开灯的建筑
+     * @param concreteFacility
+     */
     public void turnOn(ConcreteFacility concreteFacility){
         desklamp.turnOn(this);
     }
 
+    /**
+     * 关灯
+     * 调用关灯的建筑
+     * @param concreteFacility
+     */
     public void turnOff(ConcreteFacility concreteFacility){
         desklamp.turnOff(this);
     }
 
+    /**
+     * 建筑所安装的灯
+     */
     private Desklamp desklamp;
 }

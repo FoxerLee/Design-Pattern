@@ -10,6 +10,7 @@ import src.Base.Person;
 public class House extends Building {
 
 
+
     /**
      * 获取被装饰者用装饰类装饰后的被装饰者的描述
      */
@@ -19,11 +20,21 @@ public class House extends Building {
     }
 
 
+    /**
+     * 名字
+     * @param name
+     * 容量
+     * @param capacity
+     */
     public House(String name, int capacity) {
         super(name, capacity);
 
     }
 
+    /**
+     * 名字
+     * @param name
+     */
     public House(String name) {
         super(name);
 

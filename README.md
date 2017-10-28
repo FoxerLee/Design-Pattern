@@ -6,30 +6,29 @@
 
 ## 设计模式实现情况
 
-- [x] Singleton
-- [ ] Visitor
-- [x] State
-- [x] Proxy, Surrogate
-- [x] Template Method
-- [ ] Strategy
-- [ ] Prototype
-- [x] Observer
-- [ ] Memento
-- [ ] Mediator
-- [x] Iterator
-- [ ] Interpreter
-- [ ] Factory Method
-- [ ] Flyweight
-- [x] Facade
-- [ ] Composite
-- [ ] Command
-- [ ] Chain of Responsibility
-- [ ] Builder
-- [x] Bridge
-- [x] Abstract Factory
-- [ ] Kid
-- [x] Decorator
-- [x] Adapter
+- [x] Singleton， lmh、ch
+- [ ] Visitor，
+- [x] State，lmh、ch
+- [x] Proxy, Surrogate，ch
+- [x] Template Method，lmh
+- [x] Strategy，ygh
+- [x] Prototype，ygh
+- [x] Observer，hjx
+- [x] Memento，lmh
+- [x] Mediator，ch
+- [x] Iterator，ly
+- [ ] Interpreter，
+- [ ] Factory Method，
+- [ ] Flyweight，
+- [x] Facade，lmh
+- [x] Composite，ygh
+- [x] Command，lmh
+- [x] Chain of Responsibility，ybj
+- [x] Builder，hjx
+- [x] Bridge，hjx
+- [x] Abstract Factory，hjx
+- [x] Decorator，ybj
+- [x] Adapter，ybj
 ## framework分工
 
 陈晖：Singleton、Visitor、State, Objects for States、Proxy, Surrogate、Template Method

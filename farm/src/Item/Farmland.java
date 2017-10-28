@@ -47,6 +47,7 @@ public class Farmland extends ConcreteFacility {
         System.out.print(getName());
     }
 
+
     /**
      *种植植物
      * 被种植的植物
@@ -71,15 +72,29 @@ public class Farmland extends ConcreteFacility {
         return removeLodger(plant);
     }
 
+    /**
+     * 开灯
+     * 适配器模式接口的使用
+     * 调用开灯的基础设施
+     * @param concreteFacility
+     */
     public void turnOn(ConcreteFacility concreteFacility){
         lamppost.turnOn(concreteFacility);
     }
 
+    /**
+     * 关灯
+     * 适配器模式接口的使用
+     * 调用关灯的基础设施
+     * @param concreteFacility
+     */
     public void turnOff(ConcreteFacility concreteFacility){
         lamppost.turnOff(concreteFacility);
     }
 
-
+    /**
+     * 适配器模式中提供的接口
+     */
     private Lamppost lamppost;
 
 }
