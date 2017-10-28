@@ -24,7 +24,7 @@
 - [ ] Composite
 - [ ] Command
 - [ ] Chain of Responsibility
-- [ ] Builder
+- [x] Builder
 - [x] Bridge
 - [x] Abstract Factory
 - [ ] Kid
