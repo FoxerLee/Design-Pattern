@@ -8,17 +8,29 @@ import java.util.LinkedList;
  * @version 2017/10/26
  * @auther bingjieyang
  *
-    *
+ *
  * 具体基础设施实现
- * capacity容量
- * usedCapacity已用容量
- * lodgerList设施所容纳的人或物的List
  */
-public class ConcreteFacility extends Item implements Facility {
+public abstract class ConcreteFacility extends Item implements Facility {
 
-    private int capacity;
-    private int usedCapacity;
-    private LinkedList lodgerList;
+
+    /**
+     * 责任链模式中获取下一个处理者
+     * @return 下一个处理者
+     */
+    public ConcreteFacility getSuccessor() {
+        return successor;
+    }
+
+    /**
+     * 责任链模式中设置下一个处理者
+     * 下一个处理者
+     * @param successor
+     */
+    public void setSuccessor(ConcreteFacility successor) {
+        this.successor = successor;
+    }
+
 
     /**
      * 具体基础设施名称
@@ -27,6 +39,7 @@ public class ConcreteFacility extends Item implements Facility {
      * @param capacity
      */
     public ConcreteFacility(String name, int capacity) {
+        super();
         this.capacity = capacity;
         this.usedCapacity = 0;
         this.setName(name);
@@ -37,6 +50,7 @@ public class ConcreteFacility extends Item implements Facility {
      * @param name
      */
     public ConcreteFacility(String name) {
+        super();
         this.capacity = 2;
         this.usedCapacity = 0;
         this.setName(name);
@@ -142,4 +156,39 @@ public class ConcreteFacility extends Item implements Facility {
         }
 
     }
+
+
+    /**
+     * 责任链模式中的Handler()方法
+     * 总共需要抵押的金额
+     * @param value
+     */
+    public void mortgage(int value) {
+        //当前抵押列表中的基础设施总金额达到或超过总共需要抵押的金额
+        if (this.getValue()>= value){
+            System.out.println(this.getName() + " has been mortgaged,");
+        }
+        //当前抵押列表中的基础设施总金额不足总共需要抵押的金额，且责任链仍然未到末尾
+        else if (getSuccessor()!=null){
+            System.out.println(this.getName() + " has been mortgaged,");
+            getSuccessor().mortgage(value-this.getValue());
+        }
+        //达到责任链末尾，但是仍然未达到总共需要抵押的金额
+        else {
+            System.out.println(this.getName() + " has been mortgaged,");
+            System.out.println("Sorry, there is no such facility can handle the mortgaged request");
+        }
+    }
+
+    //capacity容量
+    private int capacity;
+    //usedCapacity已用容量
+    private int usedCapacity;
+    //lodgerList设施所容纳的人或物的List
+    private LinkedList lodgerList;
+    //责任链中下一个处理者
+    private ConcreteFacility successor;
+
+
+
 }

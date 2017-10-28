@@ -5,5 +5,8 @@ package src.Item;
  * @auther bingjieyang
  **/
 public interface Facility {
+    /**
+     * 装饰者模式中描述基础设施装饰
+     */
     public void getDescription();
 }
