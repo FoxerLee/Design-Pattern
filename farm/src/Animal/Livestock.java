@@ -5,9 +5,9 @@ import src.Base.Item;
 
 /**
  * @author YGH
- * @version 2017-10-25
+ * @version 2017-10-29 13:00
  */
-public class Livestock extends Animal {
+public abstract class Livestock extends Animal {
 
     private int meatAmount;
     private int leatherAmount;
@@ -42,14 +42,18 @@ public class Livestock extends Animal {
     }
 
     /**
+     * Factory Method
      * @param interval
-     * Prodution interval.
+     * Production interval.
      * @return animalProduct
-     * Animal product like egg, milk, wool, etc.
+     * src.Animal product like egg, milk, wool, etc.
      */
-    public Item produce(float interval) {
+    public Item produce(int interval) {
+        animalProduct = createProduct(interval);
         return animalProduct;
     }
+    public abstract Item createProduct(int interval);
+
     @Override
     public void eat() {
 
