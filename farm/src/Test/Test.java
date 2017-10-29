@@ -5,9 +5,14 @@ import src.Action.AnimalEatFood.AnimalEatFood;
 import src.Action.AnimalEatFood.AnimalEatNaturalFood;
 import src.Action.HarvestFactory.FactoryProducer;
 import src.Action.Observer.Operation;
+import src.Action.PersonAction.PersonAction;
+import src.Action.PersonAction.PersonSleep;
+import src.Action.PersonAction.PersonWateringPlant;
+import src.Action.PersonAction.Proxy.ProxyPersonEatFood;
 import src.Animal.ObserverAnimals.Chicken;
 import src.Animal.ObserverAnimals.Rabbit;
 import src.Base.LifeStatement;
+import src.Base.Person;
 import src.Item.Fertilizer;
 import src.Item.Shopping.ShoppingList;
 import src.Item.Shopping.StocksBuilder;
@@ -80,5 +85,39 @@ public class Test {
         action3.run();
         System.out.println("兔子爱吃植物，你喂给它植物：");
         action4.run();
+
+        /**
+         * proxy例子
+         * Jack 吃食物会恢复体力
+         * 浇水会消耗体力值
+         * 体力值耗尽就会生病，无法工作
+         * 体力值达到上限就无需进食
+         */
+        System.out.println(" ");
+        Person Jack = new Person("Jack", 1);
+        PersonAction JackEatFood = new ProxyPersonEatFood(Jack);
+        PersonAction JackWateringPlant = new PersonWateringPlant(Jack);
+        JackWateringPlant.run();
+        JackEatFood.run();
+        JackEatFood.run();
+        JackEatFood.run();
+        JackEatFood.run();
+
+
+
+        /**
+         * PersonState例子
+         * Jack睡觉也会恢复体力值
+         */
+        PersonAction JackSleep = new PersonSleep(Jack);
+        JackWateringPlant.run();
+        JackWateringPlant.run();
+        JackSleep.run();
+        JackWateringPlant.run();
+        JackWateringPlant.run();
+        JackSleep.run();
+        JackSleep.run();
+        JackSleep.run();
+        JackWateringPlant.run();
     }
 }
