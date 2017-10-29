@@ -1,10 +1,11 @@
 package src.Clock;
 /**
- * ÊµÏÖ½µµÍÊ±¼äÁ÷ËÙµÄÃüÁî
+ * å‡é€Ÿå‘½ä»¤å®ç°
  * @version 2017/10/26
  * @author LiMianHong
  */
 public class SlowCommand extends Command{
+	//å®ç°å‡é€Ÿå‘½ä»¤
 	public void runAction() {
 		Clock.getInstance().slow();	
 	}
