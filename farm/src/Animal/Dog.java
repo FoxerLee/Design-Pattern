@@ -1,9 +1,10 @@
 package src.Animal;
 
 /**
- * @version 2017/10/26
+ * @version 2017/10/29
  * @author bingjieyang
  **/
-public class Dog extends Livestock {
+//modified superclass to Pet instead of Livestock; by YGH 10-29 1200
+public class Dog extends Pet {
 
 }
