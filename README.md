@@ -31,10 +31,10 @@
 - [x] Adapter，ybj
 ## 提交内容
 
-- [x] framework实现代码
+- [ ] framework实现代码
 - [ ] UML图
 - [ ] 文档
-- [x] tester 清单
+- [ ] tester 清单
 - [ ] 配合说明、样例代码
 - [ ] 配对小组测试app
 
