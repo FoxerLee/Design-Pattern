@@ -1,8 +1,9 @@
 package Dtor;
+import src.Clock.*
 /**
- * 具体基础设施实现
+ * 导演类实现
  * @version 2017/10/26
- * @author bingjieyang
+ * @author LiMianHong
  *
  *
  *
