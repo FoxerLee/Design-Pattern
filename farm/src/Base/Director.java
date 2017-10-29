@@ -1,5 +1,12 @@
 package Dtor;
-
+/**
+ * 具体基础设施实现
+ * @version 2017/10/26
+ * @author bingjieyang
+ *
+ *
+ *
+ */
 public class Director {
 	static private Director director;
 	private Command[] commandLists = new Command[20];
@@ -9,6 +16,7 @@ public class Director {
 		commandNum = 0;
 		commandLists[commandNum++] = new AccelerateCommand();
 		commandLists[commandNum++] = new SlowCommand();
+		container = new ConcreteIterator();
 	}
 	
 	static public int getTimeSpeed() {
@@ -36,13 +44,5 @@ public class Director {
 	public void redoTimeSpeed() {
 		Command.redo();
 	}
-
-    private Scene () {
-        container = new ConcreteIterator();
-    }
-    // 获取当前的场景
-    public static Scene getScene() {
-        return scene;
-    }
 
 }
