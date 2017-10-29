@@ -11,21 +11,33 @@ import src.Base.*;
  */
 
 abstract public class PersonState {
+    /**
+     * 绑定人物对象
+     */
     protected Person person;
 
     public abstract boolean doSomeAction();
-
     public abstract String getDescription();
 
+    /**
+     * person setter
+     * @param person
+     */
     public void setPerson(Person person){
         this.person = person;
     }
 
+    /**
+     * 打印人物当前状态和体力值情况
+     */
     public void printPersonState(){
         System.out.println(person.getName() + "'s VIT:" + person.getVIT() + "/" + person.getMaxVIT());
         System.out.println(person.getName() + " " + person.getState().getDescription() + "\n");
     }
 
+    /**
+     * 人物状态转换函数
+     */
     public void changePersonState(){
         if (person.getVIT() <= 0){
             person.setVIT(0);

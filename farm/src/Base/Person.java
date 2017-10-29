@@ -29,19 +29,19 @@ public class Person extends Entity{
 
     /**
      * 人物类构造函数
-     * @param name
-     * @param gender
+     * @param name 人物姓名
+     * @param gender 人物性别（影响体力值上限）
      */
     public Person(String name, int gender){
         this.setName(name);
         this.setState(PersonNormalState.getInstance());
 
 
-        if (gender == 1){
+        if (gender == 1){  //男性时
             this.gender = gender;
             this.maxVIT = 120;
         }
-        else if (gender == 0){
+        else if (gender == 0){  //女性时
             this.gender = gender;
             this.maxVIT = 100;
         }

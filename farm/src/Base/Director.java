@@ -1,10 +1,12 @@
 package src.Base;
 import src.Clock.*;
+
 /**
  * 实现导演类
  * @version 2017/10/26
  * @author LiMianHong
  */
+
 public class Director {
 	static private Director director;
 	private Command[] commandLists = new Command[20];

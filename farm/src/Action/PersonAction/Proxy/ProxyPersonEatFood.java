@@ -12,13 +12,29 @@ import src.Base.Person;
  */
 
 public class ProxyPersonEatFood extends PersonAction {
+    /**
+     * 所代理的实体对象
+     */
     private PersonEatFood action;
+
+    /**
+     * 效验器
+     */
     private Validator validator;
 
+    /**
+     * 构造函数
+     * @param person 执行者
+     */
     public ProxyPersonEatFood(Person person){
         super(person);
     }
 
+    /**
+     * 体力值为满时（效验器生效），提示人物无需进食
+     * 体力值未满时，执行实体对象动作
+     * @return
+     */
     @Override
     public boolean doSomething() {
         Person TarPerson = this.getTargetPerson();
@@ -35,6 +51,11 @@ public class ProxyPersonEatFood extends PersonAction {
         }
     }
 
+    /**
+     * 检验器调用函数
+     * @param person 执行对象
+     * @return
+     */
     public boolean validator(Person person){
         validator = new Validator();
         return validator.validator(person);
