@@ -1,6 +1,9 @@
-package Dtor;
-
-
+package src.Clock;
+/**
+ * ÊµÏÖÃüÁîÀà
+ * @version 2017/10/26
+ * @author LiMianHong
+ */
 abstract public class Command {
 	public void execute() {
 		mementoList[numCommands] = Clock.getInstance().createMemento();
@@ -13,12 +16,12 @@ abstract public class Command {
 	}
 	abstract public void runAction();
 	
-	static Command[] commandList = new Command[20];
-	static Memento[] mementoList = new Memento[20];
-	static int numCommands;
-	static int highWater;
+	static private Command[] commandList = new Command[20];
+	static private Memento[] mementoList = new Memento[20];
+	static private int numCommands;
+	static private int highWater;
 	
-	static void undo() {
+	static public void undo() {
 		if(numCommands == 0) {
 			System.out.println("Not enough commands");
 			return;
@@ -27,7 +30,7 @@ abstract public class Command {
 		numCommands--;
 	}
 	
-	static void redo() {
+	static public void redo() {
 		if(numCommands > highWater) {
 			System.out.println("Not enough commands");
 			return;

@@ -1,5 +1,9 @@
-package SecuritySystem;
-
+package src.Security;
+/**
+ * ÊµÏÖ¾¯±¨
+ * @version 2017/10/26
+ * @author LiMianHong
+ */
 public class Alarm {
 
 	private int level;

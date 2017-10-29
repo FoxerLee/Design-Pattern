@@ -1,12 +1,9 @@
-package Dtor;
-import src.Clock.*
+package src.Base;
+import src.Clock.*;
 /**
- * 导演类实现
+ * 实现导演类
  * @version 2017/10/26
  * @author LiMianHong
- *
- *
- *
  */
 public class Director {
 	static private Director director;

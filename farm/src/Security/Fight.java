@@ -1,5 +1,9 @@
-package SecuritySystem;
-
+package src.Security;
+/**
+ * 实现战斗系统
+ * @version 2017/10/26
+ * @author LiMianHong
+ */
 public class Fight {
 	private String friend;
 	
