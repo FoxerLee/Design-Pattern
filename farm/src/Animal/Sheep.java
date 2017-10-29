@@ -11,6 +11,14 @@ public class Sheep extends Livestock {
     private final int producingInterval = 180;  //days
     private final int producingAmount = 75;
     private Wool sheepProduct;
+
+    /**
+     * Customer-defined "constructor" (Factory Method). Override method.
+     * @param interval
+     * Production interval.
+     * @return item
+     * Return sheep product: Wool.
+     */
     @Override
     public Item createProduct(int interval) {
         //Should get system time here... interval changes with time

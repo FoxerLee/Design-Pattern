@@ -42,16 +42,24 @@ public abstract class Livestock extends Animal {
     }
 
     /**
-     * Factory Method
+     * Livestock produces item (Factory Method)
      * @param interval
      * Production interval.
      * @return animalProduct
-     * src.Animal product like egg, milk, wool, etc.
+     * Animal product like egg, milk, wool, etc.
      */
     public Item produce(int interval) {
         animalProduct = createProduct(interval);
         return animalProduct;
     }
+
+    /**
+     * Virtual Constructor (Factory Method)
+     * @param interval
+     * Production interval.
+     * @return Item
+     * Return Custom-defined product.
+     */
     public abstract Item createProduct(int interval);
 
     @Override

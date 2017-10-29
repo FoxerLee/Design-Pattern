@@ -84,10 +84,17 @@ public abstract class Animal extends Entity {
 
     }
 
+    /**
+     * Animal eat action.
+     */
     public abstract void eat();
-
+    /**
+     * Animal move action.
+     */
     public abstract void move();
-
+    /**
+     * Animal sleep action.
+     */
     public abstract void sleep();
 
 

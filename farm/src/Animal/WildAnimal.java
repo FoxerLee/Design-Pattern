@@ -40,16 +40,11 @@ public class WildAnimal extends Animal {
 
     @Override
     public void eat() {
-
     }
-
     @Override
     public void move() {
-
     }
-
     @Override
     public void sleep() {
-
     }
 }

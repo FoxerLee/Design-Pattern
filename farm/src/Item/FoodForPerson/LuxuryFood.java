@@ -10,7 +10,7 @@ import src.Utility.FoodType;
 public class LuxuryFood extends FoodForPerson {
     private static int refs = 1;
     private int id;
-    private static SimpleFood sf;
+    private static LuxuryFood lf;
     private LuxuryFood() {
         addPrototype(this);
     }
