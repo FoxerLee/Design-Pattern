@@ -1,5 +1,8 @@
 package src.Item.Shopping;
 
+/**
+ * 此类给出了不同种类的商品的组合：Set1和Set2
+ */
 public class StocksBuilder {
 
     public ShoppingList Set1(){
