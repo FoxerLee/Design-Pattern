@@ -93,7 +93,8 @@ public class Director {
      *
      */
 	public void nextRound() {
-		commandLists[2].execute();
+		//commandLists[2].execute();
+		Clock.getInstance().timeGoseBy();
 	}
 	
 	/**

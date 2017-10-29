@@ -35,7 +35,7 @@ abstract public class Command {
 			return;
 		}
 		Clock.getInstance().reinstateMemento(mementoList[numCommands - 1]);
-		numCommands--;
+		numCommands --;
 	}
 	
 	//恢复至上一次执行命令撤销前的状态

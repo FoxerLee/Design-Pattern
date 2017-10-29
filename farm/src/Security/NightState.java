@@ -40,8 +40,9 @@ public class NightState implements State{
 	//检查当前时间并判断是否需要切换状态
 	@Override
 	public void checkTime(SecuritySystem system,int time) {
-		if(time>18 && time < 6)
+		if(time>6 && time < 18) {
 			system.changeState(DayState.getInstance());
+		}
 	}
 	
 	/**

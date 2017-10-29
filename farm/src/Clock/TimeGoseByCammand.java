@@ -7,6 +7,6 @@ package src.Clock;
 public class TimeGoseByCammand extends Command{
 	//运行时间增加命令
 	public void runAction() {
-		Clock.getInstance().timeGoseBy();;
+		Clock.getInstance().timeGoseBy();
 	}
 }

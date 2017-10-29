@@ -30,7 +30,7 @@ public class Clock {
 	static public Clock getInstance() {
 		if(clock == null) {
 			clock = new Clock();
-			clock.timeSpeed = 0;
+			clock.timeSpeed = 1;
 			clock.currentTime = 0;
 		}
 		return clock;
@@ -61,7 +61,7 @@ public class Clock {
      */
 	public void reinstateMemento(Memento memento) {
 		this.timeSpeed = memento.getTimeSpeed();
-		this.currentTime = memento.getCurrentTime();
+		//this.currentTime = memento.getCurrentTime();
 	}
 	
 	//时间增加

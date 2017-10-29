@@ -40,6 +40,7 @@ public class SecuritySystem {
      *
      */
 	public void Check() {
+		this.getClock();
 		state.check();
 	}
 	
@@ -48,6 +49,7 @@ public class SecuritySystem {
      *
      */
 	public void Attack() {
+		this.getClock();
 		state.attack();
 	}
 	
