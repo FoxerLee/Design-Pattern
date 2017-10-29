@@ -3,11 +3,23 @@ package src.Action.AnimalEatFood;
 import src.Base.LifeStatement;
 import src.Plant.PlantForEating.PlantToEat;
 
+/**
+ * 继承自AnimalEatFood抽象类：动物爱吃天然植物
+ */
 public class AnimalEatNaturalFood extends AnimalEatFood {
+    /**
+     * 构造函数
+     * @param plant
+     */
     public AnimalEatNaturalFood(PlantToEat plant){
         super(plant);
     }
 
+    /**
+     * 匹配被吃的植物和动物的喜好
+     * 若一致，则动物爱吃，若不一致，则动物gg
+     * @return
+     */
     @Override
     public boolean doSomething() {
         System.out.println("\n" + getDescription());
@@ -25,6 +37,10 @@ public class AnimalEatNaturalFood extends AnimalEatFood {
         return false;
     }
 
+    /**
+     * 输出动物状态信息
+     * @return
+     */
     @Override
     public String getDescription() {
         return "Animal Type: " + "animal for natural food" + ". Plant type: " + plant.getName() + ", status: " + plant.getLifeState();

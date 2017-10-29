@@ -7,10 +7,22 @@ import src.Base.Animal;
 import java.util.ArrayList;
 import java.util.Observable;
 
+/**
+ * 观察者模式的抽象接口
+ */
 public class AbstractAnimal extends Animal{
 
+    /**
+     * 定义动作，将特定动作绑在动物身上
+     */
     private Operation operation;
 
+    /**
+     * 定义动物的三种状态：体力，健康和交易价值
+     * @param breeding
+     * @param health
+     * @param operation
+     */
     public  AbstractAnimal(int breeding, int health, Operation operation){
         setBreeding(breeding);
         setHealth(health);
