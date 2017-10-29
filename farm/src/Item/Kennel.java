@@ -4,25 +4,26 @@ package src.Item;
 import src.Animal.Dog;
 
 /**
+ * 狗舍类
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public class Kennel extends Building {
 
 
     /**
-     * 名字
-     * @param name
-     * 容量
-     * @param capacity
+     *
+     * @param name 名字
+     *
+     * @param capacity 容量
      */
     public Kennel(String name, int capacity){
         super(name, capacity);
     }
 
     /**
-     * 名字
-     * @param name
+     *
+     * @param name 名字
      */
     public Kennel(String name){
         super(name);
@@ -41,10 +42,10 @@ public class Kennel extends Building {
 
     /**
      * 添加狗
-     * 被添加的狗
-     * @param dog
-     * 返回true操作成功，返回false操作失败
-     * @return
+     *
+     * @param dog 被添加的狗
+     *
+     * @return 返回true操作成功，返回false操作失败
      */
     public boolean addLodger(Dog dog){
         check(dog);
@@ -53,10 +54,10 @@ public class Kennel extends Building {
 
     /**
      * 移除狗
-     * 被移除的狗
-     * @param dog
-     * 返回true操作成功，返回false操作失败
-     * @return
+     *
+     * @param dog 被移除的狗
+     *
+     * @return 返回true操作成功，返回false操作失败
      */
     public boolean removeLodger(Dog dog){
         return removeLodger(dog);

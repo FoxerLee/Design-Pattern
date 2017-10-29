@@ -3,17 +3,18 @@ package src.Item;
 import src.Animal.Sheep;
 
 /**
+ * 羊圈类
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public class Sheepfold extends Building {
 
 
     /**
-     * 名字
-     * @param name
-     * 容量
-     * @param capacity
+     *
+     * @param name 名字
+     *
+     * @param capacity 容量
      */
     public Sheepfold(String name, int capacity){
         super(name, capacity);
@@ -29,8 +30,8 @@ public class Sheepfold extends Building {
     }
 
     /**
-     * 名字
-     * @param name
+     *
+     * @param name 名字
      *
      */
     public Sheepfold(String name) {
@@ -41,10 +42,10 @@ public class Sheepfold extends Building {
 
     /**
      * 添加羊
-     * 被添加的羊
-     * @param sheep
-     * 返回true操作成功，返回false操作失败
-     * @return
+     *
+     * @param sheep 被添加的羊
+     *
+     * @return  返回true操作成功，返回false操作失败
      */
     public boolean addLodger(Sheep sheep){
         check(sheep);
@@ -54,10 +55,10 @@ public class Sheepfold extends Building {
 
     /**
      * 移除羊
-     * 被添加的羊
-     * @param sheep
-     * 返回true操作成功，返回false操作失败
-     * @return
+     *
+     * @param sheep 被添加的羊
+     *
+     * @return 返回true操作成功，返回false操作失败
      */
     public boolean removeLodger(Sheep sheep){
         return removeLodger(sheep);

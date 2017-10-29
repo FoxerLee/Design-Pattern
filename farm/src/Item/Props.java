@@ -2,8 +2,9 @@ package src.Item;
 import src.Base.*;
 
 /**
+ * 道具类
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public class Props extends Item {
 }

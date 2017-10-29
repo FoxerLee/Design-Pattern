@@ -2,7 +2,7 @@ package src.Animal;
 
 /**
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public class Sheep extends Livestock {
 }

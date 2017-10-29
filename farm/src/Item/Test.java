@@ -2,7 +2,7 @@ package src.Item;
 
 /**
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author  bingjieyang
  **/
 public class Test {
     public static void main(String[]args){
