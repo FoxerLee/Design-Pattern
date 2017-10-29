@@ -1,6 +1,6 @@
 package src.Clock;
 /**
- * 减速命令实现
+ * 减速时间流速命令实现
  * @version 2017/10/26
  * @author LiMianHong
  */

@@ -1,6 +1,6 @@
 package src.Clock;
 /**
- * ʵ�ֱ���¼��
+ * 备忘录类实现
  * @version 2017/10/26
  * @author LiMianHong
  */

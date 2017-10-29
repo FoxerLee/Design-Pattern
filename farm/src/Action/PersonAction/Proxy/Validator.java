@@ -10,6 +10,13 @@ import src.Base.Person;
  */
 public class Validator {
     Validator(){}
+
+    /**
+     * 效验函数
+     * 检验人物体力值是否已满
+     * @param person
+     * @return 已满为true
+     */
     public boolean validator(Person person){
         if (person.getVIT() == person.getMaxVIT()) {
             return false;

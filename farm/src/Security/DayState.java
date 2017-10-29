@@ -1,6 +1,6 @@
 package src.Security;
 /**
- * ʵ�ְ���״̬�°���ϵͳ�Ĳ���
+ * 实现白天状态下安保系统的操作
  * @version 2017/10/26
  * @author LiMianHong
  */

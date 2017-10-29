@@ -1,6 +1,6 @@
 package src.Security;
 /**
- * 状态接口
+ * 状态接口实现
  * @version 2017/10/26
  * @author LiMianHong
  */

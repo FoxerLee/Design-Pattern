@@ -12,31 +12,44 @@ import src.Base.Person;
  */
 
 public class PersonNormalState extends PersonState{
+    /**
+     * 具体状态为单例模式
+     *
+     */
     private static PersonNormalState instance = new PersonNormalState();
-
     public static PersonNormalState getInstance(){
         return instance;
     }
 
+    /**
+     * 构造函数
+     */
     public PersonNormalState(){};
-
     public PersonNormalState(Person person){
         this.person = person;
     }
-
     public PersonNormalState(PersonState state){
         this.person = state.person;
     }
 
+
+    /**
+     * 执行该状态对应操作
+     * @return
+     */
     @Override
     public boolean doSomeAction(){
         /**
-         *
+         * 可补充
          */
 
         return true;
     }
 
+    /**
+     *
+     * @return 状态描述
+     */
     @Override
     public String getDescription(){
         String str = "is healthy ^_^";
