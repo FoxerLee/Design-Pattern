@@ -3,17 +3,17 @@ package src.Item;
 import src.Base.Item;
 
 /**
- * @version 2017/10/26
- * @auther bingjieyang
- *
  * 装饰类
- * facility为Facility的指针，用于装饰者模式中指向被装饰的类
+ * @version 2017/10/26
+ * @author bingjieyang
+ *
+ *
  */
 public class Decorator extends Item implements Facility {
 
     /**
-     * facility为Facility的指针，用于装饰者模式中指向被装饰的类
-     * @param facility
+     *
+     * @param facility facility为Facility的指针，用于装饰者模式中指向被装饰的类
      */
     public Decorator(Facility facility) {
 
@@ -30,6 +30,10 @@ public class Decorator extends Item implements Facility {
 
     }
 
+    /**
+     *
+     * facility为Facility的指针，用于装饰者模式中指向被装饰的类
+     */
     private Facility facility;
 
 }

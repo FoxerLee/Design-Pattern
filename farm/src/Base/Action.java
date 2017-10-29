@@ -1,14 +1,6 @@
 package src.Base;
 //Base Class for action Object
-public abstract class Action {
-	 /** 
-     * The "target".
-     * The target is the invoker of the action
-=======
-package src.Action;
-=======
-package src.Base;
-//Base Class for src.Action Object
+
 abstract public class Action {
 	 /** 
      * The "target".

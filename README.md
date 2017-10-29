@@ -6,66 +6,29 @@
 
 ## 设计模式实现情况
 
-- [x] Singleton
-- [ ] Visitor
-- [x] State
-- [x] Proxy, Surrogate
-- [x] Template Method
-- [ ] Strategy
-- [ ] Prototype
-- [x] Observer
-- [ ] Memento
+- [x] Singleton， lmh、ch
+- [ ] Visitor，
+- [x] State，lmh、ch
+- [x] Proxy, Surrogate，ch
+- [x] Template Method，lmh
+- [x] Strategy，ygh
+- [x] Prototype，ygh
+- [x] Observer，hjx
+- [x] Memento，lmh
 - [ ] Mediator
-- [x] Iterator
-- [ ] Interpreter
-- [ ] Factory Method
-- [ ] Flyweight
-- [x] Facade
-- [ ] Composite
-- [ ] Command
-- [ ] Chain of Responsibility
-- [ ] Builder
-- [x] Bridge
-- [x] Abstract Factory
-- [ ] Kid
-- [x] Decorator
-- [x] Adapter
-## framework分工
-
-陈晖：Singleton、Visitor、State, Objects for States、Proxy, Surrogate、Template Method
-
-李源：Strategy, Policy、Prototype、Observer、Memento, Token、Mediator
-
-杨国辉：Iterator, Cursor、Interpreter、Factory Method, Virtual Constructor、Flyweight、Facade
-
-李冕泓：Wrapper、Composite、Command, Action, Transaction、Chain of Responsibility、Builder
-
-胡嘉鑫：Bridge, Wrapper、Abstract Factory, Kid
-
-杨冰洁：Decorator, Adapter
-
-“、”号做分隔为一个设计模式，具体名字可参考ppt 18 - 20页
->>>>>>> 4725f25088d158e541a4ba35d9cbdffb5031c1c7
-
-## 任务计划
-
-**第一次** 10.16
-
-- [x] 实现场景设计UML图
-- [x] 阅读源代码，14 - 15个设计模式
-- [x] 周六下午、晚上开发
-
-- 人员分工：
-  - UML图例，3人
-  - 文档撰写，2人 
-  - 代码，6人
-
-**第二次 10.23**
-
-- [ ] 实现代码
-- [ ] 实现对应的类图
-- [ ] 周三汇总
-
+- [x] Iterator，ly
+- [ ] Interpreter，
+- [x] Factory Method，ygh
+- [x] Flyweight，ygh
+- [x] Facade，lmh
+- [x] Composite，ygh
+- [x] Command，lmh
+- [x] Chain of Responsibility，ybj
+- [x] Builder，hjx
+- [x] Bridge，hjx
+- [x] Abstract Factory，hjx
+- [x] Decorator，ybj
+- [x] Adapter，ybj
 ## 提交内容
 
 - [ ] framework实现代码

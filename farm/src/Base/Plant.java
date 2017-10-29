@@ -5,6 +5,10 @@ public class Plant extends Entity{
     //三个状态：死亡，未成熟和成熟
     private LifeStatement lifeState;
 
+    /**
+     * 获取生长值
+     * @return
+     */
     public int getGrowthValue() {
         return growthValue;
     }

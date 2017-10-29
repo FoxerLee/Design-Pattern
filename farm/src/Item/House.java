@@ -4,10 +4,12 @@ package src.Item;
 import src.Base.Person;
 
 /**
+ * 房屋类
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public class House extends Building {
+
 
 
     /**
@@ -19,11 +21,21 @@ public class House extends Building {
     }
 
 
+    /**
+     *
+     * @param name 名字
+     *
+     * @param capacity 容量
+     */
     public House(String name, int capacity) {
         super(name, capacity);
 
     }
 
+    /**
+     *
+     * @param name 名字
+     */
     public House(String name) {
         super(name);
 
@@ -32,10 +44,10 @@ public class House extends Building {
 
     /**
      * 添加人员
-     *被添加的人
-     * @param person
-     * 返回true操作成功，返回false操作失败
-     * @return
+     *
+     * @param person 被添加的人
+     *
+     * @return 返回true操作成功，返回false操作失败
      */
     public boolean addLodger(Person person){
         check(person);
@@ -44,10 +56,10 @@ public class House extends Building {
 
     /**
      *删除成员
-     * 被删除的人
-     * @param person
-     * 返回true操作成功，返回false操作失败
-     * @return
+     *
+     * @param person 被删除的人
+     *
+     * @return 返回true操作成功，返回false操作失败
      */
     public boolean removeLodger(Person person){
         return removeLodger(person);

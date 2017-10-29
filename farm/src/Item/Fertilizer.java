@@ -1,8 +1,9 @@
 package src.Item;
 
 /**
+ * 肥料类
  * @version 2017/10/26
- * @auther bingjieyang
+ * @author bingjieyang
  **/
 public class Fertilizer extends Props {
 }

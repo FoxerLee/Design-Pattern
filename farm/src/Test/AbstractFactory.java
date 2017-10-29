@@ -4,6 +4,11 @@ import src.Action.HarvestFactory.FactoryProducer;
 import src.Item.Fertilizer;
 import src.Plant.Seeds;
 
+/**
+ * 抽象工厂 测试类
+ * 抽象工厂能批量产出许多具有相同类型的产品，与工厂模式不同的是，抽象工厂更注重于产品间具有的特殊的联系。
+ * 例如本例中，为了产生种植用品，可以生产种子，同时也可以生产化肥
+ */
 public class AbstractFactory {
     public static void main(String [] args){
         src.Action.HarvestFactory.AbstractFactory abstractFactory = FactoryProducer.getFactory(2);
