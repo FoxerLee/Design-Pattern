@@ -15,11 +15,11 @@
 - [x] Prototype，ygh
 - [x] Observer，hjx
 - [x] Memento，lmh
-- [x] Mediator，ch
+- [ ] Mediator
 - [x] Iterator，ly
 - [ ] Interpreter，
-- [ ] Factory Method，
-- [ ] Flyweight，
+- [x] Factory Method，ygh
+- [x] Flyweight，ygh
 - [x] Facade，lmh
 - [x] Composite，ygh
 - [x] Command，lmh
@@ -29,31 +29,12 @@
 - [x] Abstract Factory，hjx
 - [x] Decorator，ybj
 - [x] Adapter，ybj
-## 任务计划
-
-**第一次** 10.16
-
-- [x] 实现场景设计UML图
-- [x] 阅读源代码，14 - 15个设计模式
-- [x] 周六下午、晚上开发
-
-- 人员分工：
-  - UML图例，3人
-  - 文档撰写，2人 
-  - 代码，6人
-
-**第二次 10.23**
-
-- [x] 实现代码
-- [x] 实现对应的类图
-- [x] 周三汇总
-
 ## 提交内容
 
-- [ ] framework实现代码
+- [x] framework实现代码
 - [ ] UML图
 - [ ] 文档
-- [ ] tester 清单
+- [x] tester 清单
 - [ ] 配合说明、样例代码
 - [ ] 配对小组测试app
 
