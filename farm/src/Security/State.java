@@ -1,6 +1,6 @@
 package src.Security;
 /**
- * 实现状态类
+ * 瀹炵幇鐘舵�佺被
  * @version 2017/10/26
  * @author LiMianHong
  */

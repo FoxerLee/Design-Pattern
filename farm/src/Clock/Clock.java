@@ -1,6 +1,6 @@
 package src.Clock;
 /**
- * ÊµÏÖÊ±¼äÀà
+ * å®ç°æ—¶é—´ç±»
  * @version 2017/10/26
  * @author LiMianHong
  */

@@ -1,6 +1,6 @@
 package src.Clock;
 /**
- * 实现加快时间流速的命令
+ * 瀹炵幇鍔犲揩鏃堕棿娴侀�熺殑鍛戒护
  * @version 2017/10/26
  * @author LiMianHong
  */
