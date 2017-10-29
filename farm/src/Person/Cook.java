@@ -14,8 +14,8 @@ public class Cook extends Person {
 
     public Cook() {
     }
-    public Cook(String ID) {
-        super(ID);
+    public Cook(String name, int gender) {
+        super(name, gender);
     }
 
     protected void setCookStrat(FoodType foodType) {
