@@ -1,5 +1,9 @@
-package SecuritySystem;
-
+package src.Security;
+/**
+ * 实现白天状态下安保系统的操作
+ * @version 2017/10/26
+ * @author LiMianHong
+ */
 public class DayState implements State{
 	static private Fight fight;
 	static private Alarm alarm;

@@ -1,5 +1,9 @@
-package Dtor;
-
+package src.Clock;
+/**
+ * 实现时间类
+ * @version 2017/10/26
+ * @author LiMianHong
+ */
 public class Clock {
 	private int timeSpeed;
 	static private Clock clock;

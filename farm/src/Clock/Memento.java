@@ -1,5 +1,9 @@
-package Dtor;
-
+package src.Clock;
+/**
+ * 实现备忘录类
+ * @version 2017/10/26
+ * @author LiMianHong
+ */
 public class Memento {
 	private int TimeSpeed;
 	
