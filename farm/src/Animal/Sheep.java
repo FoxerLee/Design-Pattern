@@ -12,6 +12,9 @@ public class Sheep extends Livestock {
     private final int producingAmount = 75;
     private Wool sheepProduct;
 
+    public Sheep(){
+
+    }
     /**
      * Customer-defined "constructor" (Factory Method). Override method.
      * @param interval

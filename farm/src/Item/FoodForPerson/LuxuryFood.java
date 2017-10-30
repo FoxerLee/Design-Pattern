@@ -26,4 +26,8 @@ public class LuxuryFood extends FoodForPerson {
     protected FoodForPerson clone() {
         return new LuxuryFood(1);
     }
+    @Override
+    public String toString() {
+        return "Here is a luxury food.";
+    }
 }

@@ -13,4 +13,8 @@ public class LuxuryFoodStrat implements CookStrategy {
         FoodForPerson f = LuxuryFood.findAndClone(FoodType.LUXU);
         return f;
     }
+    @Override
+    public String toString() {
+        return "Luxury food is cooked.";
+    }
 }

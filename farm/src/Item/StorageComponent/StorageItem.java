@@ -5,7 +5,7 @@ package src.Item.StorageComponent;
  * @author YGH
  * @version 2017-10-29 10:10
  */
-public class StroageItem extends StorageEntry {
+public class StorageItem extends StorageEntry {
     private String name;
 
     /**
@@ -15,7 +15,7 @@ public class StroageItem extends StorageEntry {
      * @param value
      * Item value.
      */
-    public StroageItem(String name, int value) {
+    public StorageItem(String name, int value) {
         this.name = name;
         this.setValue(value);
     }
@@ -25,7 +25,7 @@ public class StroageItem extends StorageEntry {
     }
 
     @Override
-    protected void printList(String prefix) {
+    public void printList(String prefix) {
         System.out.println(prefix + "/" + this);
     }
 }

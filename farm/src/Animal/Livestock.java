@@ -14,6 +14,9 @@ public abstract class Livestock extends Animal {
 
     private Item animalProduct;
 
+    protected void Livestock(){
+
+    }
     /*
      * Getters & Setters
      */

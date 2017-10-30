@@ -27,4 +27,8 @@ public class ExquisiteFood extends FoodForPerson {
     protected FoodForPerson clone() {
         return new ExquisiteFood(1);
     }
+    @Override
+    public String toString() {
+        return "Here is a exquisite food.";
+    }
 }

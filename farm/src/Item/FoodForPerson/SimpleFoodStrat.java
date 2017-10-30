@@ -13,4 +13,8 @@ public class SimpleFoodStrat implements CookStrategy {
         FoodForPerson f = SimpleFood.findAndClone(FoodType.SIMP);
         return f;
     }
+    @Override
+    public String toString() {
+        return "Simple food is cooked.";
+    }
 }

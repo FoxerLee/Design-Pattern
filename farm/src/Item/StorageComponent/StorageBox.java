@@ -14,6 +14,12 @@ public class StorageBox extends StorageEntry {
     private String name;
     private ArrayList<Item> storageBox = new ArrayList();
 
+    public StorageBox(){
+    }
+    public StorageBox(String name) {
+        this.name = name;
+    }
+
     /**
      * Add an item to storage box and set its value to total value.
      * @param item
@@ -34,7 +40,7 @@ public class StorageBox extends StorageEntry {
     }
 
     @Override
-    protected void printList(String prefix) {
+    public void printList(String prefix) {
         System.out.println(prefix + "/" + this);
         Iterator iter = storageBox.iterator();
         while (iter.hasNext()) {
