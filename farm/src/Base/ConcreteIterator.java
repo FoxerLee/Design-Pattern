@@ -1,23 +1,23 @@
 package src.Base;
 import java.util.*;
 
-// 实现设计模式 -- 迭代器模式
+// 瀹炵幇璁捐妯″紡 -- 杩唬鍣ㄦā寮�
 interface Iterator {
-    // 获取下一个数据
+    // 鑾峰彇涓嬩竴涓暟鎹�
     public Object next();
-    // 判断是否有下一个数据
+    // 鍒ゆ柇鏄惁鏈変笅涓�涓暟鎹�
     public boolean hasNext();
 
 }
 
-public class ConcreteIterator implements Iterator {
-    private List list;
+public class ConcreteIterator<T> implements Iterator {
+    private List<T> list;
     private int cursor = 0;
 
     public ConcreteIterator() {
-        this.list = new ArrayList();
+        this.list = new ArrayList<T>();
     }
-    public ConcreteIterator(List list) {
+    public ConcreteIterator(List<T> list) {
         this.list = list;
     }
 
@@ -28,10 +28,11 @@ public class ConcreteIterator implements Iterator {
             return true;
     }
 
-    public Object next() {
-        Object obj = null;
+    public T next() {
+        T obj = null;
         if (this.hasNext()) {
-            obj = this.list.get(cursor++);
+            obj = this.list.get(cursor);
+            ++cursor;
         }
         return obj;
     }

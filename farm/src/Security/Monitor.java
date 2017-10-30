@@ -1,10 +1,11 @@
 package src.Security;
 /**
- * 实现监控系统
+ * 鐩戞帶绯荤粺瀹炵幇
  * @version 2017/10/26
  * @author LiMianHong
  */
 public class Monitor {
+	//杩愯鐩戞帶绯荤粺
 	public Boolean run() {
 		System.out.println("Find the enemy!");
 		return true;

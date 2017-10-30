@@ -1,10 +1,11 @@
 package src.Clock;
 /**
- * ÊµÏÖ¼Ó¿ìÊ±¼äÁ÷ËÙµÄÃüÁî
+ * åŠ å¿«æ—¶é—´æµé€Ÿå‘½ä»¤å®ç°
  * @version 2017/10/26
  * @author LiMianHong
  */
 public class AccelerateCommand extends Command{
+	//æ‰§è¡ŒåŠ é€Ÿå‘½ä»¤
 	public void runAction() {
 		Clock.getInstance().accelerate();
 	}

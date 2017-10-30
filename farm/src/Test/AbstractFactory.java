@@ -20,6 +20,9 @@ public class AbstractFactory {
         System.out.println(seed3.Grow().getName() + ", " + seed3.Grow().getLifeState() + ", growth value : " + seed3.Grow().getGrowthValue());
 
         src.Action.HarvestFactory.AbstractFactory abstractFactory2 = FactoryProducer.getFactory(1);
-        Fertilizer fertilizer = abstractFactory2.getFertilizer(1);
+        Fertilizer fertilizer1 = abstractFactory2.getFertilizer(1);
+        Fertilizer fertilizer2 = abstractFactory2.getFertilizer(2);
+        System.out.println("fertilizer Name: " + fertilizer1.getName() + "and value is: " + fertilizer1.getValue());
+        System.out.println("fertilizer Name: " + fertilizer2.getName() + "and value is: " + fertilizer2.getValue());
     }
 }

@@ -10,20 +10,35 @@ import src.Base.Person;
  */
 
 public class PersonAction extends Action{
-    protected Person targetPerson; //执行者
-    protected int upVIT;  //体力值改变值
+    /**
+     * 绑定执行者
+     */
+    protected Person targetPerson;
 
+    /**
+     * 体力值改变值
+     */
+    protected int upVIT;
+
+    /**
+     * setter & getter
+     * @param targetPerson
+     */
     public void setTargetPerson(Person targetPerson){
         this.targetPerson = targetPerson;
     }
-
     public Person getTargetPerson(){
         return this.targetPerson;
     }
 
+    /**
+     * 构造函数
+     * @param targetPerson
+     */
     protected PersonAction(Person targetPerson){
         this.setTargetPerson(targetPerson);
     }
+
 
     @Override
     protected boolean doSomething() {

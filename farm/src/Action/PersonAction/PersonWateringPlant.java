@@ -14,17 +14,22 @@ public class PersonWateringPlant extends PersonAction{
 
     public PersonWateringPlant(Person targetPerson){
         super(targetPerson);
-        upVIT = -50;
+        upVIT = -50;  //体力值改变值
 //        this.targetPlant = targetPlant;
     };
 
+    /**
+     * 根据人物状态判断执行结果，输出结果
+     * 改变体力值，检测状态
+     * @return
+     */
     @Override
     public boolean doSomething() {
         if (getTargetPerson().getState().doSomeAction()){
             System.out.println("Action executing succeed.");
             System.out.println(getTargetPerson().getName() + " " + getDescription() + " now.");
-            getTargetPerson().addVIT(upVIT);
-            getTargetPerson().getState().changePersonState();
+            getTargetPerson().addVIT(upVIT);  //体力值改变
+            getTargetPerson().getState().changePersonState();   //状态改变
         }
         else {
             System.out.println("Action executing failed.");
