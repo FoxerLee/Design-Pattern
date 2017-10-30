@@ -1,6 +1,9 @@
 package src.Base;
 import src.Clock.*;
-import src.Item.*;
+import src.Clock.Command.*;
+import src.Clock.Command.SlowCommand;
+import src.Clock.Command.TimeGoseByCommand;
+import src.Item.Facilities.*;
 
 /**
  * 导演类实现
@@ -22,7 +25,7 @@ public class Director {
 		commandNum = 0;
 		commandLists[commandNum++] = new AccelerateCommand();
 		commandLists[commandNum++] = new SlowCommand();
-		commandLists[commandNum++] = new TimeGoseByCammand();
+		commandLists[commandNum++] = new TimeGoseByCommand();
 		container = new MyList<ConcreteFacility>();
 	}
 	/**

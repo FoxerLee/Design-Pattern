@@ -1,5 +1,8 @@
 # Env-related Config
-
+farm/.classpath
+farm/.project
+farm/.settings/
+farm/src/.idea/
 farm/.idea/
 farm.imi
 farm/out

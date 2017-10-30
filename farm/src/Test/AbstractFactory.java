@@ -1,7 +1,7 @@
 package src.Test;
 
-import src.Action.HarvestFactory.FactoryProducer;
-import src.Item.Fertilizer;
+import src.Action.HarvestAction.FactoryProducer;
+import src.Item.Props.Fertilizer;
 import src.Plant.Seeds;
 
 /**
@@ -11,7 +11,7 @@ import src.Plant.Seeds;
  */
 public class AbstractFactory {
     public static void main(String [] args){
-        src.Action.HarvestFactory.AbstractFactory abstractFactory = FactoryProducer.getFactory(2);
+        src.Action.HarvestAction.AbstractFactory abstractFactory = FactoryProducer.getFactory(2);
         Seeds seed1 = abstractFactory.getSeed("Corn");
         Seeds seed2 = abstractFactory.getSeed("Rice");
         Seeds seed3 = abstractFactory.getSeed("Wheat");
@@ -19,7 +19,7 @@ public class AbstractFactory {
         System.out.println(seed2.Grow().getName() + ", " + seed2.Grow().getLifeState() + ", growth value : " + seed2.Grow().getGrowthValue());
         System.out.println(seed3.Grow().getName() + ", " + seed3.Grow().getLifeState() + ", growth value : " + seed3.Grow().getGrowthValue());
 
-        src.Action.HarvestFactory.AbstractFactory abstractFactory2 = FactoryProducer.getFactory(1);
+        src.Action.HarvestAction.AbstractFactory abstractFactory2 = FactoryProducer.getFactory(1);
         Fertilizer fertilizer1 = abstractFactory2.getFertilizer(1);
         Fertilizer fertilizer2 = abstractFactory2.getFertilizer(2);
         System.out.println("fertilizer Name: " + fertilizer1.getName() + "and value is: " + fertilizer1.getValue());

@@ -1,5 +1,8 @@
 package src.Item;
 
+import src.Item.Facilities.*;
+import src.Item.Props.Desklamp;
+
 /**
  * 适配器模式中适配器类
  * @version 2017/10/26

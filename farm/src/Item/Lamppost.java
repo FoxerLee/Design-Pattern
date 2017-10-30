@@ -1,5 +1,8 @@
 package src.Item;
 
+import src.Item.Facilities.ConcreteFacility;
+import src.Item.Facilities.Facility;
+
 /**
  * 适配器模式中提供的接口
  * @version 2017/10/26
@@ -20,4 +23,6 @@ public interface  Lamppost {
      * @param concreteFacility 调用关灯的基础设施
      */
     public void turnOff(ConcreteFacility concreteFacility);
+
+
 }

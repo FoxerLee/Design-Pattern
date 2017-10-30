@@ -1,7 +1,11 @@
 package src.Person;
 
 import src.Base.Person;
-import src.Item.FoodForPerson.*;
+import src.Item.Food.*;
+import src.Item.Food.Strategy.CookStrategy;
+import src.Item.Food.Strategy.ExquisiteFood.ExquisiteFoodStrat;
+import src.Item.Food.Strategy.LuxuryFood.LuxuryFoodStrat;
+import src.Item.Food.Strategy.SimpleFood.SimpleFoodStrat;
 import src.Utility.FoodType;
 
 /**

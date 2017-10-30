@@ -1,6 +1,6 @@
 package src.Test;
 
-import src.Item.FoodForPerson.FoodForPerson;
+import src.Item.Food.FoodForPerson;
 import src.Person.Cook;
 import src.Utility.FoodType;
 

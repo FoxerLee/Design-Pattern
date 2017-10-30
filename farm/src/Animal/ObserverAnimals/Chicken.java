@@ -1,6 +1,6 @@
 package src.Animal.ObserverAnimals;
 
-import src.Action.Observer.Operation;
+import src.Action.ObserverAction.Operation;
 
 /**
  * 鸡

@@ -1,11 +1,7 @@
 package src.Animal.ObserverAnimals;
 
-import src.Action.Observer.Operation;
-import src.Action.Observer.Operation;
+import src.Action.ObserverAction.Operation;
 import src.Base.Animal;
-
-import java.util.ArrayList;
-import java.util.Observable;
 
 /**
  * 观察者模式的抽象接口

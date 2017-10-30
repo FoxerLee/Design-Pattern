@@ -1,6 +1,6 @@
 package src.Test;
 
-import src.Animal.Sheep;
+import src.Animal.Livestock.Sheep;
 import src.Item.AnimalProduct.Wool;
 
 public class FactoryMethodTest {

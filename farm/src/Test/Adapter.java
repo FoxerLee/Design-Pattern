@@ -1,7 +1,7 @@
 package src.Test;
 
-import src.Item.Desklamp;
-import src.Item.Farmland;
+import src.Item.Props.Desklamp;
+import src.Item.Facilities.Farmland;
 
 /**
  * 适配器模式测试类

@@ -1,7 +1,7 @@
 package src.Test;
 
 import src.Item.Shopping.ShoppingList;
-import src.Item.Shopping.StocksBuilder;
+import src.Item.Shopping.Stock.StocksBuilder;
 
 /**
  * 建造者模式的测试类

@@ -1,6 +1,10 @@
 package src.Test;
 
-import src.Item.*;
+import src.Item.Building.House;
+import src.Item.Building.Kennel;
+import src.Item.Building.Sheepfold;
+import src.Item.Facilities.*;
+
 
 /**
  * 责任链模式测试类

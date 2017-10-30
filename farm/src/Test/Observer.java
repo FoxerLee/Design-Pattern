@@ -1,6 +1,6 @@
 package src.Test;
 
-import src.Action.Observer.Operation;
+import src.Action.ObserverAction.Operation;
 import src.Animal.ObserverAnimals.Chicken;
 import src.Animal.ObserverAnimals.Rabbit;
 

@@ -1,6 +1,11 @@
 package src.Test;
 
-import src.Item.*;
+import src.Item.Building.House;
+import src.Item.Building.Kennel;
+import src.Item.Building.Sheepfold;
+import src.Item.Decorator.Awning;
+import src.Item.Decorator.Fence;
+import src.Item.Facilities.Facility;
 
 /**
  * 装饰者模式测试类

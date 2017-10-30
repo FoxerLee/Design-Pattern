@@ -1,6 +1,6 @@
 package src.Item.Fertilizering;
 
-import src.Item.Fertilizer;
+import src.Item.Props.Fertilizer;
 
 /**
  * 无机饲料

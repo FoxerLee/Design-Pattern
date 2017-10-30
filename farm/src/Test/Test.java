@@ -1,10 +1,10 @@
 package src.Test;
 
-import src.Action.AnimalEatFood.AnimalEatFodder;
-import src.Action.AnimalEatFood.AnimalEatFood;
-import src.Action.AnimalEatFood.AnimalEatNaturalFood;
-import src.Action.HarvestFactory.FactoryProducer;
-import src.Action.Observer.Operation;
+import src.Action.AnimalAction.AnimalEatFodder;
+import src.Action.AnimalAction.AnimalEatFood;
+import src.Action.AnimalAction.AnimalEatNaturalFood;
+import src.Action.HarvestAction.FactoryProducer;
+import src.Action.ObserverAction.Operation;
 import src.Action.PersonAction.PersonAction;
 import src.Action.PersonAction.PersonSleep;
 import src.Action.PersonAction.PersonWateringPlant;
@@ -13,9 +13,9 @@ import src.Animal.ObserverAnimals.Chicken;
 import src.Animal.ObserverAnimals.Rabbit;
 import src.Base.LifeStatement;
 import src.Base.Person;
-import src.Item.Fertilizer;
+import src.Item.Props.Fertilizer;
 import src.Item.Shopping.ShoppingList;
-import src.Item.Shopping.StocksBuilder;
+import src.Item.Shopping.Stock.StocksBuilder;
 import src.Plant.PlantForEating.FodderForAnimal;
 import src.Plant.PlantForEating.NatureFoodForAnimal;
 import src.Plant.Seeds;
@@ -29,14 +29,14 @@ public class Test {
          * 抽象工厂例子
          */
         System.out.println("emm，今天我们收购了一家农场, 但我们什么都没有。 所以我们来买一波种子和肥料：");
-        src.Action.HarvestFactory.AbstractFactory abstractFactory = FactoryProducer.getFactory(2);
+        src.Action.HarvestAction.AbstractFactory abstractFactory = FactoryProducer.getFactory(2);
         Seeds seed1 = abstractFactory.getSeed("Corn");
         Seeds seed2 = abstractFactory.getSeed("Rice");
         Seeds seed3 = abstractFactory.getSeed("Wheat");
         System.out.println("种子:\n" + seed1.Grow().getName() + ", " + seed1.Grow().getLifeState() + ",成长值 : " + seed1.Grow().getGrowthValue());
         System.out.println(seed2.Grow().getName() + ", " + seed2.Grow().getLifeState() + ", 成长值 : " + seed2.Grow().getGrowthValue());
         System.out.println(seed3.Grow().getName() + ", " + seed3.Grow().getLifeState() + ", 成长值 : " + seed3.Grow().getGrowthValue());
-        src.Action.HarvestFactory.AbstractFactory abstractFactory2 = FactoryProducer.getFactory(1);
+        src.Action.HarvestAction.AbstractFactory abstractFactory2 = FactoryProducer.getFactory(1);
         Fertilizer fertilizer1 = abstractFactory2.getFertilizer(1);
         Fertilizer fertilizer2 = abstractFactory2.getFertilizer(2);
         System.out.println("肥料:\n" +  fertilizer1.getName() + ", and value is: " + fertilizer1.getValue());
