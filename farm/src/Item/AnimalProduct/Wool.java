@@ -36,4 +36,9 @@ public class Wool extends Item {
     public void setAmount(int amount) {
         this.amount = amount;
     }
+
+    @Override
+    public String toString() {
+        return "Wool X" + amount;
+    }
 }

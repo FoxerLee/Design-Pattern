@@ -13,4 +13,9 @@ public class ExquisiteFoodStrat implements CookStrategy {
         FoodForPerson f = ExquisiteFood.findAndClone(FoodType.EXQU);
         return f;
     }
+
+    @Override
+    public String toString() {
+        return "Exquisite food is cooked.";
+    }
 }

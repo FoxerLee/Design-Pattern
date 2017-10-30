@@ -27,4 +27,9 @@ public class SimpleFood extends FoodForPerson {
     protected FoodForPerson clone() {
         return new SimpleFood(1);
     }
+
+    @Override
+    public String toString() {
+        return "Here is a simple food.";
+    }
 }
