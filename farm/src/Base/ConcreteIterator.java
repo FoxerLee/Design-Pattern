@@ -1,11 +1,11 @@
 package src.Base;
 import java.util.*;
 
-// 瀹炵幇璁捐妯″紡 -- 杩唬鍣ㄦā寮�
+
 interface Iterator {
-    // 鑾峰彇涓嬩竴涓暟鎹�
+
     public Object next();
-    // 鍒ゆ柇鏄惁鏈変笅涓�涓暟鎹�
+
     public boolean hasNext();
 
 }
