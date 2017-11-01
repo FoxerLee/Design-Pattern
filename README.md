@@ -2,8 +2,6 @@
 42036001 Autumn2017 software architecture and design pattern by jie HOU @ SSE, TJU
 
 
-
-
 ## 设计模式实现情况
 
 - [x] Singleton， lmh、ch
@@ -29,24 +27,6 @@
 - [x] Abstract Factory，hjx
 - [x] Decorator，ybj
 - [x] Adapter，ybj
-## 提交内容
-
-- [ ] framework实现代码
-- [ ] UML图
-- [ ] 文档
-- [ ] tester 清单
-- [ ] 配合说明、样例代码
-- [ ] 配对小组测试app
-
-
-
-## 时间结点
-
-- [x] 10月16日，提交分组名单 
-- [ ] 10月30日，提交framework、文档、UML图例（两周）
-- [ ] 11月3日，完成application（一周）
-
-
 
 ## 参考资料
 
@@ -66,3 +46,19 @@ C++/Java implementations of the Gang of Four's "Design Patterns: Elements of Reu
 Design Patterns Explained Simply
 
 - pdf见doc文件夹
+
+## 合作开发者
+
+- 李冕泓([@Sixaps](https://github.com/Sixaps))
+- 杨冰洁([@lingziyu](https://github.com/lingziyu))
+- 胡嘉鑫([@DigitalSprite](https://github.com/DigitalSprite))
+- 杨国辉([@Yghifi](https://github.com/Yghifi))
+- 陈晖([@LosingSleep](https://github.com/LosingSleep))
+- 李源([@FoxerLee](https://github.com/FoxerLee))
+
+## 特别感谢
+
+- 侯捷老师
+- lzj([@tjluozhongjin](https://github.com/tjluozhongjin))
+
+
